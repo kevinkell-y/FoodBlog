@@ -2,8 +2,8 @@ title: Vegan & Cheese
 email: ""
 description: >-
   Delicious vegan recipes made easy. Fast meals, homemade sauces, and meatless comfort foods from the comfort of a home kitchen.
-baseurl: "" # Leave blank unless deploying to a subpath
-url: "https://veganandcheese.com" # Replace with your GitHub username or custom domain
+baseurl: "/FoodBlog" # Leave blank unless deploying to a subpath
+url: "https://kevikell-y.github.io" # Replace with your GitHub username or custom domain
 instagram_username: veganandcheese
 permalink: /:title/
 theme: minima
