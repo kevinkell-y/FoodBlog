@@ -1,7 +1,7 @@
 ---
 title: Vegan Crunch Wrap Supremes
 date: 2018-11-04
-image: /assets/images/vegan-crunch-wrap-supremes.png
+image: {{ site.baseurl }}/assets/images/vegan-crunch-wrap-supremes.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Sausage & Garlic Butter Lentil Pasta
 date: 2025-06-26
-image: /assets/images/vegan-sausage-garlic-butter-lentil-pasta.png
+image: {{ site.baseurl }}/assets/images/vegan-sausage-garlic-butter-lentil-pasta.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

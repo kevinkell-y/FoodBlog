@@ -1,7 +1,7 @@
 ---
 title: Vegan Double-Double Animal Style Cheeseburger
 date: 2018-11-04
-image: /assets/images/vegan-double-double-animal-style-cheeseburger.png
+image: {{ site.baseurl }}/assets/images/vegan-double-double-animal-style-cheeseburger.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

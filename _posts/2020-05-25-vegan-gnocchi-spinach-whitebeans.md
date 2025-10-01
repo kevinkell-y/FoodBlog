@@ -1,7 +1,7 @@
 ---
 title: Vegan Gnocchi
 date: 2020-05-25
-image: /assets/images/vegan-gnocchi-spinach.png
+image: {{ site.baseurl }}/assets/images/vegan-gnocchi-spinach.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

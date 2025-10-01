@@ -1,7 +1,7 @@
 ---
 title: Vegan Green Chile Chicken Casserole
 date: 2019-07-06
-image: /assets/images/vegan-green-chile-chicken-casserole.png
+image: {{ site.baseurl }}/assets/images/vegan-green-chile-chicken-casserole.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

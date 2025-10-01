@@ -1,7 +1,7 @@
 ---
 title: Vegan Baked Ziti
 date: 2018-11-04
-image: /assets/images/
+image: {{ site.baseurl }}/assets/images/
 layout: recipe
 categories:
 - Easy Vegan Recipes

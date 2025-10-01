@@ -1,7 +1,7 @@
 ---
 title: Vegan Grilled Stuffed Burritos
 date: 2018-11-04
-image: /assets/images/vegan-grilled-stuffed-burritos.png
+image: {{ site.baseurl }}/assets/images/vegan-grilled-stuffed-burritos.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

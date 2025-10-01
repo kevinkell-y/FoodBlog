@@ -1,7 +1,7 @@
 ---
 title: Vegan Reuben Sandwich
 date: 2025-06-26
-image: /assets/images/vegan-reuben-sandwich.png
+image: {{ site.baseurl }}/assets/images/vegan-reuben-sandwich.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Snickerdoodle Cookies
 date: 2020-10-03
-image: /assets/images/vegan-snickerdoodles.png
+image: {{ site.baseurl }}/assets/images/vegan-snickerdoodles.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

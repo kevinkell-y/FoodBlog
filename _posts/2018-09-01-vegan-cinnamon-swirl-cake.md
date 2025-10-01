@@ -1,7 +1,7 @@
 ---
 title: Vegan Cinnamon Swirl Cake
 date: 2018-11-04
-image: /assets/images/vegan-cinnamon-swirl-cake.png
+image: {{ site.baseurl }}/assets/images/vegan-cinnamon-swirl-cake.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

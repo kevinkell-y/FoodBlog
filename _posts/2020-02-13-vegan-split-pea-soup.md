@@ -1,7 +1,7 @@
 ---
 title: Vegan Split Pea Soup
 date: 2020-02-13
-image: /assets/images/vegan-split-pea-soup.png
+image: {{ site.baseurl }}/assets/images/vegan-split-pea-soup.png
 layout: recipe
 categories:
 - Soups

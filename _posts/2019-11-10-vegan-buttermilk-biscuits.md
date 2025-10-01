@@ -1,7 +1,7 @@
 ---
 title: Vegan Buttermilk Biscuits
 date: 2019-11-10
-image: /assets/images/vegan-buttermilk-biscuits.png
+image: {{ site.baseurl }}/assets/images/vegan-buttermilk-biscuits.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

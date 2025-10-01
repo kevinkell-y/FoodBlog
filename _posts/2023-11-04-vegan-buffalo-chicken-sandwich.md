@@ -1,7 +1,7 @@
 ---
 title: Vegan Buffalo Chicken Sandwich
 date: 2025-06-26
-image: /assets/images/vegan-buffalo-chicken-sandwich.png
+image: {{ site.baseurl }}/assets/images/vegan-buffalo-chicken-sandwich.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

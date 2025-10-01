@@ -1,7 +1,7 @@
 ---
 title: Vegan Garlic Cream Sauce
 date: 2021-10-02
-image: /assets/images/vegan-garlic-cream-sauce.png
+image: {{ site.baseurl }}/assets/images/vegan-garlic-cream-sauce.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

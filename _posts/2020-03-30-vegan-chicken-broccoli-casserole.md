@@ -1,7 +1,7 @@
 ---
 title: Vegan Chicken Broccoli Casserole
 date: 2020-03-30
-image: /assets/images/vegan-chicken-broccoli-casserole.png
+image: {{ site.baseurl }}/assets/images/vegan-chicken-broccoli-casserole.png
 layout: recipe
 categories:
 - Vegan Recipes

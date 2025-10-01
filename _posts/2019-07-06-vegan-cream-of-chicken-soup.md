@@ -1,7 +1,7 @@
 ---
 title: Vegan Cream of Chicken Soup
 date: 2019-07-06
-image: /assets/images/vegan-cream-of-chicken-soup.png
+image: {{ site.baseurl }}/assets/images/vegan-cream-of-chicken-soup.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

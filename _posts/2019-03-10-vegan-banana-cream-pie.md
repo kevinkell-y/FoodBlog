@@ -1,7 +1,7 @@
 ---
 title: Vegan Banana Cream Pie
 date: 2019-03-10
-image: /assets/images/vegan-banana-cream-pie.png
+image: {{ site.baseurl }}/assets/images/vegan-banana-cream-pie.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

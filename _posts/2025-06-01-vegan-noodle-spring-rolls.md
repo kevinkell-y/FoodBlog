@@ -1,7 +1,7 @@
 ---
 title: Vegan Soba Noodle Spring Rolls
 date: 2024-06-26
-image: /assets/images/soba-noodle-teriyaki-spring-rolls.png
+image: {{ site.baseurl }}/assets/images/soba-noodle-teriyaki-spring-rolls.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

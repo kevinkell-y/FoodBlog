@@ -1,7 +1,7 @@
 ---
 title: Vegan Chicken Pot Pie
 date: 2020-02-09
-image: /assets/images/vegan-chicken-pot-pie.png
+image: {{ site.baseurl }}/assets/images/vegan-chicken-pot-pie.png
 layout: recipe
 categories:
 - Dinner

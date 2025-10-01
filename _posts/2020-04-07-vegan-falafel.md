@@ -1,7 +1,7 @@
 ---
 title: Vegan Falafel
 date: 2020-04-07
-image: /assets/images/vegan-falafel.png
+image: {{ site.baseurl }}/assets/images/vegan-falafel.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

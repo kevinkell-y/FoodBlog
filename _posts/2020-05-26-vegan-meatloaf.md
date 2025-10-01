@@ -1,7 +1,7 @@
 ---
 title: Vegan Meatloaf
 date: 2020-05-26
-image: /assets/images/vegan-meatloaf.png
+image: {{ site.baseurl }}/assets/images/vegan-meatloaf.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

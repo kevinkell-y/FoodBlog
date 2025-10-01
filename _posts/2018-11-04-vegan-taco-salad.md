@@ -1,7 +1,7 @@
 ---
 title: Vegan Taco Salad
 date: 2018-11-04
-image: /assets/images/vegan-taco-salad.png
+image: {{ site.baseurl }}/assets/images/vegan-taco-salad.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

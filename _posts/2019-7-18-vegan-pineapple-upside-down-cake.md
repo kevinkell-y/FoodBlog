@@ -1,7 +1,7 @@
 ---
 title: Vegan Pineapple Upside Down Cake
 date: 2019-07-18
-image: /assets/images/vegan-pineapple-upside-down-cake.png
+image: {{ site.baseurl }}/assets/images/vegan-pineapple-upside-down-cake.png
 layout: recipe
 categories:
 - Easy Vegan Recipes
