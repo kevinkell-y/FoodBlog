@@ -1,7 +1,7 @@
 ---
 title: Vegan Chicken Cheesesteaks
 date: 2018-11-04
-image: {{ site.baseurl }}/assets/images/vegan-chicken-cheesesteaks.png
+image: "{{ site.baseurl }}/assets/images/vegan-chicken-cheesesteaks.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

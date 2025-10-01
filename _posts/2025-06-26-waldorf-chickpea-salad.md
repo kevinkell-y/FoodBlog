@@ -1,7 +1,7 @@
 ---
 title: Waldorf Chickpea Salad
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-waldorf-chickpea-salad.png
+image: "{{ site.baseurl }}/assets/images/vegan-waldorf-chickpea-salad.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

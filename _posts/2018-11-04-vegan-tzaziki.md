@@ -1,7 +1,7 @@
 ---
 title: Vegan Tzatziki Sauce
 date: 2018-11-04
-image: {{ site.baseurl }}/assets/images/vegan-tzatziki-sauce.png
+image: "{{ site.baseurl }}/assets/images/vegan-tzatziki-sauce.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Butternut Squash Mac & Cheese
 date: 2018-11-04
-image: {{ site.baseurl }}/assets/images/vegan-butternut-squash-mac-and-cheese.png
+image: "{{ site.baseurl }}/assets/images/vegan-butternut-squash-mac-and-cheese.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

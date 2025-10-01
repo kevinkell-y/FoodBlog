@@ -1,7 +1,7 @@
 ---
 title: Vegan Cashew Ricotta
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-cashew-ricotta.png
+image: "{{ site.baseurl }}/assets/images/vegan-cashew-ricotta.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

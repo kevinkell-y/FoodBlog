@@ -1,7 +1,7 @@
 ---
 title: Vegan Street Dogs
 date: 2018-11-04
-image: {{ site.baseurl }}/assets/images/vegan-street-dogs.png
+image: "{{ site.baseurl }}/assets/images/vegan-street-dogs.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

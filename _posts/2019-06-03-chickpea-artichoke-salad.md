@@ -1,7 +1,7 @@
 ---
 title: Artichoke Chickpea Salad
 date: 2019-06-03
-image: {{ site.baseurl }}/assets/images/vegan-chickpea-artichoke-salad.png
+image: "{{ site.baseurl }}/assets/images/vegan-chickpea-artichoke-salad.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

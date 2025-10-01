@@ -1,7 +1,7 @@
 ---
 title: Vegan Buffalo Mac & Cheese
 date: 2020-06-05
-image: {{ site.baseurl }}/assets/images/vegan-buffalo-chicken-mac-n-cheese.png
+image: "{{ site.baseurl }}/assets/images/vegan-buffalo-chicken-mac-n-cheese.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

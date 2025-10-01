@@ -1,7 +1,7 @@
 ---
 title: Vegan Spring Rolls
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-spring-rolls.png
+image: "{{ site.baseurl }}/assets/images/vegan-spring-rolls.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

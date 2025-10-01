@@ -1,7 +1,7 @@
 ---
 title: Vegan Shepherd's Pie
 date: 2019-12-28
-image: {{ site.baseurl }}/assets/images/vegan-shepherds-pie.png
+image: "{{ site.baseurl }}/assets/images/vegan-shepherds-pie.png
 layout: recipe
 categories:
 - Dinner

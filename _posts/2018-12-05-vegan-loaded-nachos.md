@@ -1,7 +1,7 @@
 ---
 title: Vegan Loaded Nachos
 date: 2018-12-05
-image: {{ site.baseurl }}/assets/images/vegan-loaded-nachos.png
+image: "{{ site.baseurl }}/assets/images/vegan-loaded-nachos.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

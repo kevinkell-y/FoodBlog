@@ -1,7 +1,7 @@
 ---
 title: Vegan Tacodilla
 date: 2019-07-30
-image: {{ site.baseurl }}/assets/images/vegan-tacodilla.png
+image: "{{ site.baseurl }}/assets/images/vegan-tacodilla.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

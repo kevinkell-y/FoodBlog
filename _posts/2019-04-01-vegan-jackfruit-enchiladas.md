@@ -1,7 +1,7 @@
 ---
 title: Vegan Jackfruit Enchiladas
 date: 2019-04-01
-image: {{ site.baseurl }}/assets/images/vegan-jackfruit-enchiladas.png
+image: "{{ site.baseurl }}/assets/images/vegan-jackfruit-enchiladas.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Oreo Cheesecake
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-oreo-cheesecake.png
+image: "{{ site.baseurl }}/assets/images/vegan-oreo-cheesecake.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

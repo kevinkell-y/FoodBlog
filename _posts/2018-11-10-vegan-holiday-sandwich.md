@@ -1,7 +1,7 @@
 ---
 title: Vegan Holiday Sandwich
 date: 2018-11-10
-image: {{ site.baseurl }}/assets/images/vegan-holiday-sandwich.png
+image: "{{ site.baseurl }}/assets/images/vegan-holiday-sandwich.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

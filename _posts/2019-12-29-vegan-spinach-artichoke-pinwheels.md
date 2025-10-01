@@ -1,7 +1,7 @@
 ---
 title: Vegan Spinach Artichoke Pinwheels
 date: 2019-12-29
-image: {{ site.baseurl }}/assets/images/vegan-pinwheels.png
+image: "{{ site.baseurl }}/assets/images/vegan-pinwheels.png
 layout: recipe
 categories:
 - Category One

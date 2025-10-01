@@ -1,7 +1,7 @@
 ---
 title: Vegan Banana Bread
 date: 2025-06-27
-image: {{ site.baseurl }}/assets/images/vegan-banana-bread.png
+image: "{{ site.baseurl }}/assets/images/vegan-banana-bread.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

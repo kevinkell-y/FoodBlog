@@ -1,7 +1,7 @@
 ---
 title: Vegan Sausage Melt
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-sausage-melt.png
+image: "{{ site.baseurl }}/assets/images/vegan-sausage-melt.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

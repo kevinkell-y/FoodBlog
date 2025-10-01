@@ -1,7 +1,7 @@
 ---
 title: Vegan Creamy Cilantro Lime Sauce
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-creamy-cilantro-lime-sauce.png
+image: "{{ site.baseurl }}/assets/images/vegan-creamy-cilantro-lime-sauce.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

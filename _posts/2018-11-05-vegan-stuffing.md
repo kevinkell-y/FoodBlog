@@ -1,7 +1,7 @@
 ---
 title: Vegan Stuffing
 date: 2018-11-05
-image: {{ site.baseurl }}/assets/images/vegan-stuffing.png
+image: "{{ site.baseurl }}/assets/images/vegan-stuffing.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

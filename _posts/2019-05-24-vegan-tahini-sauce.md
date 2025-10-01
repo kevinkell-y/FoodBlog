@@ -1,7 +1,7 @@
 ---
 title: Vegan Tahini Sauce
 date: 2019-05-24
-image: {{ site.baseurl }}/assets/images/vegan-tahini-sauce.png
+image: "{{ site.baseurl }}/assets/images/vegan-tahini-sauce.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

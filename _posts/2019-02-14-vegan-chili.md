@@ -1,7 +1,7 @@
 ---
 title: Vegan Chili
 date: 2019-02-14
-image: {{ site.baseurl }}/assets/images/vegan-chili.png
+image: "{{ site.baseurl }}/assets/images/vegan-chili.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

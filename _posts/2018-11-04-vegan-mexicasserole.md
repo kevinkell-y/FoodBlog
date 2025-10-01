@@ -1,7 +1,7 @@
 ---
 title: Vegan Mexicasserole
 date: 2018-11-04
-image: {{ site.baseurl }}/assets/images/vegan-mexican-casserole.png
+image: "{{ site.baseurl }}/assets/images/vegan-mexican-casserole.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

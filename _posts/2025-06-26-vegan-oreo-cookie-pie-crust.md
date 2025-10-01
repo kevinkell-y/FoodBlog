@@ -1,7 +1,7 @@
 ---
 title: Vegan Oreo Cookie Pie Crust
 date: 2025-06-26
-image: {{ site.baseurl }}/assets/images/vegan-oreo-cookie-pie-crust.png
+image: "{{ site.baseurl }}/assets/images/vegan-oreo-cookie-pie-crust.png
 layout: recipe
 categories:
 - Easy Vegan Recipes

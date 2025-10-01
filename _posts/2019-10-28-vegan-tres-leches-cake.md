@@ -1,7 +1,7 @@
 ---
 title: Vegan Tres Leches Cake
 date: 2019-10-28
-image: {{ site.baseurl }}/assets/images/vegan-tres-leches-cake.png
+image: "{{ site.baseurl }}/assets/images/vegan-tres-leches-cake.png
 layout: recipe
 categories:
 - Dessert

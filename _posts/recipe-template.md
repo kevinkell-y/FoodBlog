@@ -1,7 +1,7 @@
 ---
 title: Recipe Title Here
 date: YYYY-MM-DD
-image: {{ site.baseurl }}/assets/images/image-file-name.jpg
+image: "{{ site.baseurl }}/assets/images/image-file-name.jpg
 layout: recipe
 categories:
 - Category One
