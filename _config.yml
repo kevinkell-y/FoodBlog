@@ -2,13 +2,16 @@ title: Vegan & Cheese
 email: ""
 description: >-
   Delicious vegan recipes made easy. Fast meals, homemade sauces, and meatless comfort foods from the comfort of a home kitchen.
-baseurl: "/FoodBlog" # Leave blank unless deploying to a subpath
-url: "https://kevikell-y.github.io" # Replace with your GitHub username or custom domain
+url: "http://127.0.0.1:4000"   # for local dev; change to your real domain for production
+baseurl: "/FoodBlog"
 instagram_username: veganandcheese
+
 permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Optional: Display future-dated posts
 future: true
@@ -16,8 +19,19 @@ future: true
 # =====================================
 # Pages Collection for _pages directory
 # =====================================
+
 collections:
   pages:
     output: true
     permalink: /:name/
+  recipes:
+    output: true
+    permalink: /recipes/:name/
 
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: recipe

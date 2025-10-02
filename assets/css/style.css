@@ -1,43 +1,41 @@
 /* =====================================
    BASE STYLES
-   General layout and typography setup
 ===================================== */
 body {
-  font-family: 'Helvetica Neue', sans-serif; /* Default sans-serif font for body text */
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff; /* White background for clean look */
-  color: #333;      /* Dark grey text color for good readability */
+  background: #fff;
+  color: #333;
 }
 
 main {
-  max-width: 800px;              /* Constrain main content width */
-  margin: 0 auto;                /* Center it horizontally */
-  padding: 2rem 1rem;            /* Add vertical & horizontal breathing room */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 /* =====================================
    HEADER & NAVIGATION
-   Top site branding and navigation menu
 ===================================== */
 header {
-  display: flex;                       /* Flex layout for logo + nav */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f9f9f9;          /* Light gray header background */
+  background-color: #f9f9f9;
   border-bottom: 1px solid #eee;
 }
 
 header h1 {
-  font-family: "Playfair Display", serif; /* Elegant serif for logo/title */
+  font-family: "Playfair Display", serif;
   font-size: 2.1rem;
   margin: 0;
 }
 
 header h1 a {
   text-decoration: none;
-  color: #4db6ac; /* Teal brand color */
+  color: #4db6ac;
 }
 
 nav {
@@ -55,7 +53,6 @@ nav a {
 
 /* =====================================
    SOCIAL ICONS
-   Instagram, Email, etc. in circle badges
 ===================================== */
 .social-icons {
   display: flex;
@@ -86,7 +83,6 @@ nav a {
 
 /* =====================================
    FOOTER
-   Site footer with copyright
 ===================================== */
 footer {
   text-align: center;
@@ -97,89 +93,90 @@ footer {
 }
 
 /* =====================================
-   RECIPE TEMPLATE STYLES
-   Custom styles for individual recipes
+   RECIPE PAGE
 ===================================== */
 .recipe-wrapper {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  text-align: center; /* centers title and description */
+  padding: 2rem 1rem;
 }
 
+/* --- Recipe Title --- */
 .recipe-wrapper h1 {
-  text-align: center;
-  font-size: 2.2rem;
   font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
   color: #4db6ac;
-  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
-.recipe-wrapper h3 {
-  color: #4db6ac;
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
+/* --- Recipe Image --- */
+.recipe-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.recipe-image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* --- Section Headings (Ingredients, Directions, Notes) --- */
+.recipe-content h2,
+.recipe-content h3 {
   text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #4db6ac;
+  font-size: 2rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #e0e0e0; /* KEEP this */
-  padding-bottom: 0.25rem;
-}
-.recipe-image {
-  margin-bottom: 2rem; /* Creates space below the image */
-  padding-bottom: 1em;
-}
-.recipe-image img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 1em; /* Rounded corners stay intact */
+  border: none;
+  font-weight: normal;
 }
 
-/* === LIST STYLING FOR INGREDIENTS & DIRECTIONS === */
-.recipe-wrapper ul,
-.recipe-wrapper ol {
-  font-size: 1.4rem;                 /* Slightly larger text */
-  line-height: 2;                   /* More vertical space between items */
+/* --- Lists for Ingredients & Directions --- */
+.recipe-content ul,
+.recipe-content ol {
+  display: inline-block;      /* centers the list block itself */
+  text-align: left;           /* keeps text readable */
   font-family: 'Karma', Georgia, serif;
-  font-weight: 300;
-  color: #333;
-  padding-left: 1.75rem;
-  max-width: 600px;                 /* Narrower than main wrapper */
-  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 600px;
 }
 
-.recipe-wrapper li {
-  margin-bottom: 0.75rem;
-}
-
-.recipe-wrapper li::marker {
+.recipe-content li::marker {
   color: #4db6ac;
   font-weight: bold;
-  font-size: 1.2rem;
 }
 
-/* === OPTIONAL RECIPE SECTION CONTAINERS (if used) === */
-.recipe-section {
-  margin-top: 2rem;
-}
-
-.recipe-section h2 {
-  color: #4db6ac;
-  font-size: 1.5rem;
+/* === Notes Section === */
+.recipe-content h3#-notes {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #4db6ac;           /* same teal as other headings */
+  font-size: 2rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.5rem;
+  border: none;             /* remove underline */
 }
 
-.recipe-section ul,
-.recipe-section ol {
-  padding-left: 1.5rem;
-  line-height: 1.6;
-  color: #333;
+/* Paragraph directly after Notes */
+.recipe-content h3#-notes + p {
+  max-width: 600px;         /* keep a nice readable width */
+  margin: 0 auto 2rem;
+  font-family: 'Karma', Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;              /* same as Ingredients text */
+  text-align: center;       /* center the text block */
 }
 
-/* === RECIPE NOTES (italic paragraph at the bottom) === */
-
+/* --- Notes (optional) --- */
 .recipe-wrapper blockquote {
   font-style: italic;
   color: #4db6ac;
@@ -189,17 +186,12 @@ footer {
   padding: 1.5rem 2rem;
   margin-top: 4rem;
   margin-bottom: 0;
-  text-align: left;
   font-size: 1.5rem;
-  position: relative;
+  text-align: left;
   font-family: 'Karma', Georgia, serif;
-
-
 }
-/* =====================================
-   INGREDIENTS LIST OVERRIDE
-   Hides numbers from ingredients section
-===================================== */
+
+/* --- Remove number markers for ingredients if needed --- */
 #ingredients + ol {
   list-style: none;
   counter-reset: item;
@@ -210,11 +202,12 @@ footer {
 }
 
 hr {
-  display: none; /* or remove the <hr> entirely from the HTML */
+  display: none;
 }
 
-
-
+/* =====================================
+   RECIPE GALLERY
+===================================== */
 .recipe-gallery {
   max-width: 1200px;
   margin: 0 auto;
@@ -261,25 +254,26 @@ hr {
   transform: translateY(-5px);
 }
 
-
 /* =====================================
-   CONTACT FORM STYLES (Clean & DRY)
+   CONTACT FORM
 ===================================== */
 h2#contact {
-  font-family: "Karma", Georgia, 'Times New Roman', Times, serif;
-  color:  #4db6ac;
+  font-family: "Karma", Georgia, serif;
+  color: #4db6ac;
   font-size: 2.3em;
   font-weight: normal;
   line-height: 1.3em;
   text-align: center;
 }
+
 h2#contact + p {
-  font-family: "Karma", Georgia, 'Times New Roman', Times, serif;
+  font-family: "Karma", Georgia, serif;
   text-align: center;
   font-size: 1.3em;
   font-weight: normal;
   line-height: 1.1em;
 }
+
 form.contact-form {
   max-width: 600px;
   margin: 2rem auto;

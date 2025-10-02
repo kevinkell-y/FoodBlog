@@ -2,14 +2,32 @@
 layout: default
 ---
 
-<div class="recipe-wrapper">
-  <h1 class="recipe-title">{{ page.title }}</h1>
+<article class="recipe-wrapper">
+  <h1>{{ page.title }}</h1>
 
   {% if page.image %}
     <div class="recipe-image">
-      <img src="{{ page.image }}" alt="{{ page.title }}">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
     </div>
   {% endif %}
 
-  {{ content }}
-</div>
+  {% if page.description %}
+    <p class="desc">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="recipe-content">
+    {{ content }}
+  </div>
+</article>
+
+{%- comment -%} Basic JSON-LD for Google {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": {{ page.title | jsonify }},
+  "image": [{% if page.image %}{{ page.image | relative_url | jsonify }}{% else %}""{% endif %}],
+  "description": {{ page.description | default: page.title | jsonify }},
+  "keywords": {{ page.tags | jsonify }}
+}
+</script>
