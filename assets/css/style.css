@@ -9,20 +9,20 @@ body {
   color: #333;
 }
 
-/* Main content wrapper */
+/* Global main content wrapper */
 main {
-  max-width: 1200px;                 /* Wide enough for recipe grids */
+  max-width: 1200px;           /* enough room for recipe grids */
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
-/* Global heading styles for top-level sections */
+/* Global headings (e.g. section titles) */
 main > h1,
 h2 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #4db6ac;                     /* Brand teal */
+  color: #4db6ac;              /* brand teal */
   margin-bottom: 2rem;
 }
 
@@ -108,10 +108,8 @@ footer {
 
 
 /* =====================================
-   RECIPE PAGE
+   RECIPE PAGE (SINGLE)
 ===================================== */
-
-/* Container for single recipe pages */
 .recipe-wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -119,7 +117,7 @@ footer {
   padding: 2rem 1rem;
 }
 
-/* Recipe title */
+/* Recipe Title */
 .recipe-wrapper h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
@@ -127,7 +125,7 @@ footer {
   margin-bottom: 1.5rem;
 }
 
-/* Recipe image block */
+/* Recipe Image */
 .recipe-image {
   display: flex;
   justify-content: center;
@@ -138,10 +136,10 @@ footer {
   max-width: 80%;
   height: auto;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Section headings: Ingredients, Directions, Notes */
+/* Section Headings */
 .recipe-content h2,
 .recipe-content h3 {
   text-align: center;
@@ -150,15 +148,14 @@ footer {
   font-size: 2rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border: none;
   font-weight: normal;
 }
 
-/* Ingredient & direction lists */
+/* Ingredient & Direction Lists */
 .recipe-content ul,
 .recipe-content ol {
-  display: inline-block;              /* centers the list block */
-  text-align: left;                   /* makes text readable */
+  display: inline-block;
+  text-align: left;
   font-family: 'Karma', Georgia, serif;
   font-size: 1.1rem;
   line-height: 1.8;
@@ -171,15 +168,12 @@ footer {
   font-weight: bold;
 }
 
-/* Notes section */
+/* Notes Section */
 .recipe-content h3#-notes {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
   color: #4db6ac;
   font-size: 2rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  border: none;
 }
 
 .recipe-content h3#-notes + p {
@@ -192,22 +186,21 @@ footer {
   text-align: center;
 }
 
-/* Optional blockquote for tips or notes */
+/* Optional Highlighted Note */
 .recipe-wrapper blockquote {
   font-style: italic;
   color: #4db6ac;
-  background-color: #f9f9f9;
+  background: #f9f9f9;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
   padding: 1.5rem 2rem;
   margin-top: 4rem;
-  margin-bottom: 0;
   font-size: 1.5rem;
   text-align: left;
   font-family: 'Karma', Georgia, serif;
 }
 
-/* Removes numbered list style if desired */
+/* Optional list cleanup */
 #ingredients + ol {
   list-style: none;
   counter-reset: item;
@@ -240,21 +233,21 @@ hr {
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .recipe-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
 .recipe-card img {
   width: 100%;
   height: auto;
-  border-radius: 12px;                  /* rounded thumbnails */
+  border-radius: 12px;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   display: block;
 }
 
@@ -267,17 +260,20 @@ hr {
   line-height: 1.3;
 }
 
-.recipe-card a {
+/* Remove underlines for recipe titles */
+.recipe-card a,
+.recipe-card a:visited,
+.recipe-card a:hover,
+.recipe-card a:active {
   text-decoration: none;
   color: inherit;
 }
 
 .recipe-card a:hover h3 {
   color: #39998c;
-  text-decoration: none;
 }
 
-/* Filter buttons */
+/* Filter Buttons */
 .filters {
   text-align: center;
   margin-bottom: 1rem;
@@ -300,29 +296,26 @@ hr {
 
 
 /* =====================================
-   ABOUT & CONTACT PAGES
+   ABOUT, CONTACT, BUY PAGES
 ===================================== */
-
-/* Shared wrapper */
 .page-about,
-.page-contact {
+.page-contact,
+.page-buy {
   max-width: 800px;
   margin: 4rem auto;
   padding: 0 2rem;
   text-align: center;
 }
 
-/* Page headings */
 .page-about h1,
-.page-contact h1 {
+.page-contact h1,
+.page-buy h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   color: #4db6ac;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
-/* Paragraph text */
 .page-about p,
 .page-contact p,
 .page-buy p {
@@ -333,14 +326,12 @@ hr {
   margin: 0 auto 1.2rem;
   max-width: 750px;
   text-align: center;
-  padding-top: 1em;
 }
 
 
 /* =====================================
    CONTACT FORM
 ===================================== */
-
 form.contact-form {
   max-width: 600px;
   margin: 2rem auto;
@@ -372,9 +363,8 @@ form.contact-form textarea {
   resize: vertical;
 }
 
-/* Submit button (centered) */
 form.contact-form button {
-  background-color: #4db6ac;
+  background: #4db6ac;
   color: white;
   border: none;
   padding: 0.75rem 2rem;
@@ -382,33 +372,18 @@ form.contact-form button {
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.3s ease;
-
-  display: block;               /* centers using auto margins */
-  margin: 1rem auto 0 auto;
+  display: block;
+  margin: 1rem auto 0;
 }
 
 form.contact-form button:hover {
-  background-color: #39998c;
+  background: #39998c;
 }
+
 
 /* =====================================
    BUY PAGE
 ===================================== */
-.page-buy {
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 0 2rem;
-  text-align: center;
-}
-
-.page-buy h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  color: 4db6ac;
-  margin-bottom: 2rem;
-}
-
-/* Centered book cover image */
 .page-buy img {
   display: block;
   margin: 2rem auto;
@@ -417,7 +392,6 @@ form.contact-form button:hover {
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
-/* Blockquote testimonials */
 .page-buy blockquote {
   font-family: 'Karma', serif;
   font-size: 1.1rem;
@@ -432,11 +406,10 @@ form.contact-form button:hover {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* Buy button */
 .buy-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #4db6ac;
+  background: #4db6ac;
   color: white;
   font-family: 'Karma', serif;
   font-size: 1.2rem;
@@ -447,5 +420,192 @@ form.contact-form button:hover {
 }
 
 .buy-button:hover {
-  background-color: #39998c;
+  background: #39998c;
+}
+
+
+/* =====================================
+   HOME PAGE
+===================================== */
+
+/* --- Hero Banner (Full-Bleed) --- */
+.hero {
+  position: relative;
+  width: 100vw;                           /* full viewport width */
+  margin: 0 calc(50% - 50vw);             /* break out of main container */
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  max-width: 90%;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-family: 'Karma', serif;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  text-decoration: none;
+  background: #4db6ac;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.hero-btn:hover {
+  background: #39998c;
+  text-decoration: none;
+}
+
+/* Featured Recipes Section */
+.featured-recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.featured-card {
+  text-align: center;
+}
+
+.featured-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.featured-card h3 {
+  font-family: 'Karma', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4db6ac;
+  margin-top: 0.8rem;
+}
+
+/* Remove underline for featured recipe titles */
+.featured-card a,
+.featured-card a:visited,
+.featured-card a:hover,
+.featured-card a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.featured-card a:hover h3 {
+  color: #39998c;
+}
+
+/* Category Grid */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.category-card {
+  display: block;
+  padding: 2rem 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #4db6ac;
+  font-family: 'Karma', serif;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.category-card:hover {
+  background: #4db6ac;
+  color: white;
+}
+
+/* CTA Banner */
+.cta-banner {
+  text-align: center;
+  background: #f3f7f6;
+  padding: 3rem 1rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+}
+
+.cta-banner h2 {
+  font-family: 'Playfair Display', serif;
+  color: #4db6ac;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-banner p {
+  font-family: 'Karma', serif;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #4db6ac;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Karma', serif;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #39998c;
+}
+
+/* =====================================
+   FIX: Remove extra spacing above hero
+===================================== */
+
+/* Remove default margin/padding between nav and hero on home page */
+.page-home {
+  margin-top: 0;        /* ensure the main wrapper starts at top */
+  padding-top: 0;       /* no extra padding at top */
+}
+
+.page-home .hero {
+  margin-top: 0;        /* hero flush with navbar */
+  padding-top: 0;
+}
+
+header {
+  margin-bottom: 0;     /* remove any bottom gap from header */
 }
