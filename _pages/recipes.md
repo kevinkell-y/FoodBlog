@@ -4,7 +4,7 @@ title: Recipes
 permalink: /recipes/
 ---
 
-<h1>All Recipes</h1>
+<h1>Recipes</h1>
 
 <div class="filters">
   <button data-filter="all">All</button>

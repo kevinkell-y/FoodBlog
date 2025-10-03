@@ -15,6 +15,14 @@ main {
   padding: 2rem 1rem;
 }
 
+main > h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;   /* Matches your recipe titles */
+  font-size: 2.5rem;
+  color: #4db6ac;                            /* Teal brand color */
+  margin-bottom: 2rem;
+}
+
 /* =====================================
    HEADER & NAVIGATION
 ===================================== */
@@ -205,54 +213,6 @@ hr {
   display: none;
 }
 
-/* =====================================
-   RECIPE GALLERY
-===================================== */
-.recipe-gallery {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-.recipe-gallery h1 {
-  font-family: "Playfair Display", serif;
-  color: #4db6ac;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.gallery-item {
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.gallery-item h3 {
-  margin-top: 0.75rem;
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-family: 'Karma', Georgia, serif;
-  color: #333;
-}
-
-.gallery-item:hover {
-  transform: translateY(-5px);
-}
 
 /* =====================================
    CONTACT FORM
@@ -317,4 +277,87 @@ form.contact-form button {
 
 form.contact-form button:hover {
   background-color: #39998c;
+}
+
+
+/* ==========================
+   Recipes Page Grid
+   ========================== */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;            /* Rounded corners for all images */
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Optional subtle shadow */
+  display: block;
+}
+
+.recipe-card h3 {
+  font-family: 'Karma', Georgia, serif;  /* Same as your navbar text */
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #4db6ac;                         /* Your Tiffany-blue brand color */
+  margin: 1rem 0;
+  line-height: 1.3;
+}
+
+/* Remove underline and inherit hover color */
+.recipe-card a {
+  text-decoration: none;                  /* No underline */
+  color: inherit;                          /* Uses the same color as h3 */
+}
+
+.recipe-card a:hover h3 {
+  color: #39998c;                          /* Slightly darker teal on hover */
+  text-decoration: none;                   /* Ensure no underline on hover */
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filters button {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.filters button:hover {
+  background: #4eb6ac;
+  color: #fff;
 }
