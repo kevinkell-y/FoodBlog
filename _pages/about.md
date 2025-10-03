@@ -4,11 +4,16 @@ title: "About"
 permalink: /about/
 ---
 
-## About Vegan & Cheese
+## About
 
-Welcome to Vegan & Cheese — your home for plant-based comfort food.
 
-We believe eating vegan should be easy, affordable, and **absolutely delicious**.  
-This site is run by a small team of recipe developers, photographers, and lifelong food lovers dedicated to making your journey flavorful and fun.
+Welcome to **Vegan & Cheese** — a space dedicated to plant-based comfort foods.
 
-Enjoy exploring our recipes!
+Our mission is to make vegan cooking approachable, fun, and visually beautiful.  
+Whether you’re brand new to vegan meals or an experienced cook looking for fresh ideas,  
+my recipes focus on flavor, texture, and comfort.
+
+I believe everyone deserves delicious food made from wholesome ingredients.  
+That’s why every recipe here is designed to be simple, satisfying, and family-friendly.
+
+Enjoy!
