@@ -428,23 +428,28 @@ form.contact-form button:hover {
    HOME PAGE
 ===================================== */
 
-/* --- Hero Banner (Full-Bleed) --- */
+/* =====================================
+   HERO BANNER
+===================================== */
+
 .hero {
   position: relative;
-  width: 100vw;                           /* full viewport width */
-  margin: 0 calc(50% - 50vw);             /* break out of main container */
-  height: 60vh;
+  width: 100vw;                    /* full viewport width on desktop */
+  margin: 0 calc(50% - 50vw);      /* break out of centered <main> on desktop */
+  height: 60vh;                    /* tall hero for desktop */
   overflow: hidden;
+  padding: 0;
 }
 
 .hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  display: block;                  /* no inline gaps */
   filter: brightness(70%);
 }
 
+/* Overlay text */
 .hero-text {
   position: absolute;
   top: 50%;
@@ -458,13 +463,13 @@ form.contact-form button:hover {
 
 .hero-text h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-size: 3rem;                  /* desktop heading */
   margin-bottom: 0.5rem;
 }
 
 .hero-text p {
   font-family: 'Karma', serif;
-  font-size: 1.3rem;
+  font-size: 1.3rem;                 /* desktop subtext */
   margin-bottom: 1.5rem;
 }
 
@@ -482,8 +487,8 @@ form.contact-form button:hover {
 
 .hero-btn:hover {
   background: #39998c;
-  text-decoration: none;
 }
+
 
 /* Featured Recipes Section */
 .featured-recipes {
@@ -609,3 +614,135 @@ form.contact-form button:hover {
 header {
   margin-bottom: 0;     /* remove any bottom gap from header */
 }
+
+
+
+/* =====================================
+   MOBILE RESPONSIVENESS
+   ===================================== */
+
+@media (max-width: 768px) {
+
+  /* ----- GLOBAL TEXT ----- */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 16px;            /* base font for readability */
+  }
+
+  main {
+    padding: 1rem;              /* reduce side padding */
+  }
+
+  h1, h2 {
+    font-size: 2rem;            /* scale down big headings */
+  }
+
+  /* ----- HEADER / NAV ----- */
+  header {
+    flex-direction: column;     /* stack logo and nav vertically */
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* ----- HERO BANNER ----- */
+  .hero {
+    width: 100%;                     /* ✅ keep fully inside mobile viewport */
+    margin: 0;                        /* ✅ remove calc() trick on mobile */
+    height: 40vh;                      /* ✅ shorter hero for small screens */
+    overflow: hidden;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;                 /* ✅ smaller headline on mobile */
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;                /* ✅ smaller subtext on mobile */
+  }
+
+  .hero-btn {
+    padding: 0.5rem 1.2rem;            /* ✅ slightly smaller button */
+    font-size: 0.95rem;
+  }
+
+  /* ----- FEATURED RECIPES GRID ----- */
+  .featured-recipes {
+    grid-template-columns: 1fr; /* single column */
+    gap: 1.5rem;
+  }
+
+  .featured-card img {
+    height: auto;               /* allow image to resize naturally */
+    max-height: 200px;
+  }
+
+  /* ----- CATEGORY GRID ----- */
+  .category-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .category-card {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  /* ----- CTA BANNER ----- */
+  .cta-banner {
+    padding: 2rem 1rem;
+  }
+
+  .cta-banner h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-banner p {
+    font-size: 1rem;
+  }
+
+  /* ----- ABOUT / CONTACT / BUY PAGES ----- */
+  .page-about,
+  .page-contact,
+  .page-buy {
+    padding: 0 1rem;
+  }
+
+  .page-about h1,
+  .page-contact h1,
+  .page-buy h2 {
+    font-size: 2rem;
+  }
+
+  .page-about p,
+  .page-contact p,
+  .page-buy p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  form.contact-form {
+    width: 100%;
+  }
+
+  form.contact-form button {
+    width: 100%;                 /* full-width button for easy tap */
+    font-size: 1rem;
+  }
+}
+
