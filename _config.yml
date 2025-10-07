@@ -2,8 +2,8 @@ title: Vegan & Cheese
 email: ""
 description: >-
   Delicious vegan recipes made easy. Fast meals, homemade sauces, and meatless comfort foods from the comfort of a home kitchen.
-url: "http://127.0.0.1:4000"   # for local dev; change to your real domain for production
-baseurl: "/FoodBlog"
+url: "https://veganandcheese.com"   
+baseurl: ""
 instagram_username: veganandcheese
 
 permalink: /:title/
