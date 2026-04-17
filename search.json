@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: /search.json
+---
+
+[
+{% for recipe in site.recipes %}
+{
+  "title": {{ recipe.title | jsonify }},
+  "url": {{ recipe.url | jsonify }},
+  "content": {{ recipe.content | strip_html | strip_newlines | jsonify }},
+  "image": {{ recipe.image | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

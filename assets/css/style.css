@@ -1,29 +1,66 @@
 /* =====================================
    BASE STYLES
 ===================================== */
-body {
-  font-family: 'Helvetica Neue', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #333;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/* Global main content wrapper */
+:root {
+  --brand: #4db6ac;
+  --brand-dark: #39998c;
+  --text: #333;
+  --muted: #666;
+  --bg: #fff;
+  --bg-soft: #f9f9f9;
+  --border: #eee;
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 6px 18px rgba(0, 0, 0, 0.10);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 999px;
+  --content-width: 1200px;
+  --content-width-narrow: 800px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 main {
-  max-width: 1200px;           /* enough room for recipe grids */
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
-/* Global headings (e.g. section titles) */
 main > h1,
-h2 {
+main h2 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #4db6ac;              /* brand teal */
-  margin-bottom: 2rem;
+  color: var(--brand);
+  margin: 0 0 2rem;
+}
+
+a {
+  color: inherit;
 }
 
 
@@ -35,32 +72,39 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f9f9f9;
-  border-bottom: 1px solid #eee;
+  background-color: var(--bg-soft);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
 }
 
 header h1 {
+  margin: 0;
   font-family: 'Playfair Display', serif;
   font-size: 2.1rem;
-  margin: 0;
+  line-height: 1.1;
 }
 
 header h1 a {
   text-decoration: none;
-  color: #4db6ac;
+  color: var(--brand);
 }
 
 nav {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-family: 'Karma', Georgia, serif;
 }
 
 nav a {
   text-decoration: none;
-  color: #4db6ac;
+  color: var(--brand);
   font-weight: normal;
+}
+
+nav a:hover {
+  color: var(--brand-dark);
 }
 
 
@@ -76,21 +120,21 @@ nav a {
 
 .social-icons a {
   display: inline-block;
-  border: 2px solid #4db6ac;
-  background-color: white;
-  color: #4db6ac;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  text-align: center;
   line-height: 44px;
-  font-size: 22px;
+  text-align: center;
   text-decoration: none;
+  font-size: 22px;
+  color: var(--brand);
+  background-color: white;
+  border: 2px solid var(--brand);
+  border-radius: 50%;
   transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
-  background-color: #4db6ac;
+  background-color: var(--brand);
   color: white;
 }
 
@@ -103,7 +147,7 @@ footer {
   padding: 2rem;
   font-size: 0.85rem;
   color: #aaa;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--border);
 }
 
 
@@ -111,21 +155,19 @@ footer {
    RECIPE PAGE (SINGLE)
 ===================================== */
 .recipe-wrapper {
-  max-width: 800px;
+  max-width: var(--content-width-narrow);
   margin: 0 auto;
-  text-align: center;
   padding: 2rem 1rem;
+  text-align: center;
 }
 
-/* Recipe Title */
 .recipe-wrapper h1 {
+  margin: 0 0 1.5rem;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #4db6ac;
-  margin-bottom: 1.5rem;
+  color: var(--brand);
 }
 
-/* Recipe Image */
 .recipe-image {
   display: flex;
   justify-content: center;
@@ -136,71 +178,62 @@ footer {
   max-width: 80%;
   height: auto;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-md);
 }
 
-/* Section Headings */
 .recipe-content h2,
 .recipe-content h3 {
+  margin: 2.5rem 0 1rem;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  color: #4db6ac;
   font-size: 2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
   font-weight: normal;
+  color: var(--brand);
 }
 
-/* Ingredient & Direction Lists */
 .recipe-content ul,
 .recipe-content ol {
   display: inline-block;
+  max-width: 600px;
+  margin: 0 0 2rem;
   text-align: left;
   font-family: 'Karma', Georgia, serif;
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 2rem;
-  max-width: 600px;
 }
 
 .recipe-content li::marker {
-  color: #4db6ac;
+  color: var(--brand);
   font-weight: bold;
 }
 
-/* Notes Section */
 .recipe-content h3#-notes {
-  color: #4db6ac;
-  font-size: 2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  color: var(--brand);
 }
 
 .recipe-content h3#-notes + p {
   max-width: 600px;
   margin: 0 auto 2rem;
+  text-align: center;
   font-family: 'Karma', Georgia, serif;
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #333;
-  text-align: center;
+  color: var(--text);
 }
 
-/* Optional Highlighted Note */
 .recipe-wrapper blockquote {
-  font-style: italic;
-  color: #4db6ac;
-  background: #f9f9f9;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 1.5rem 2rem;
   margin-top: 4rem;
-  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
   text-align: left;
   font-family: 'Karma', Georgia, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--brand);
+  background: var(--bg-soft);
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-/* Optional list cleanup */
 #ingredients + ol {
   list-style: none;
   counter-reset: item;
@@ -216,92 +249,121 @@ hr {
 
 
 /* =====================================
-   RECIPES PAGE GRID (INDEX)
+   RECIPE CARDS / GRIDS
 ===================================== */
-.recipe-grid {
+.recipe-grid,
+.search-results-grid,
+.featured-recipes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+}
+
+.recipe-grid,
+.featured-recipes {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-top: 2rem;
 }
 
-.recipe-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.search-results-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.recipe-card,
+.search-card {
+  display: block;
+  text-decoration: none;
   text-align: center;
-  border-radius: 8px;
-  overflow: hidden;
   background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.recipe-card:hover {
+.recipe-card:hover,
+.search-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  box-shadow: var(--shadow-lg);
 }
 
-.recipe-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  display: block;
-}
-
-.recipe-card h3 {
-  font-family: 'Karma', Georgia, serif;
-  font-size: 1.2rem;
-  font-weight: normal;
-  color: #4db6ac;
-  margin: 1rem 0;
-  line-height: 1.3;
-}
-
-/* Remove underlines for recipe titles */
 .recipe-card a,
 .recipe-card a:visited,
 .recipe-card a:hover,
-.recipe-card a:active {
+.recipe-card a:active,
+.search-card a,
+.search-card a:visited,
+.search-card a:hover,
+.search-card a:active {
   text-decoration: none;
   color: inherit;
 }
 
-.recipe-card a:hover h3 {
-  color: #39998c;
+.recipe-card img,
+.recipe-card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-/* Filter Buttons */
+.recipe-card img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3,
+.recipe-card-title {
+  margin: 1rem 0;
+  padding: 0 1rem 1rem;
+  font-family: 'Karma', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1.3;
+  color: var(--brand);
+}
+
+.recipe-card a:hover h3 {
+  color: var(--brand-dark);
+}
+
+.recipe-card-image-wrap {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #eee;
+}
+
+
+/* =====================================
+   FILTER BUTTONS
+===================================== */
 .filters {
   text-align: center;
   margin-bottom: 1rem;
 }
 
 .filters button {
+  margin: 0 0.3rem;
+  padding: 0.5rem 1rem;
   background: #fff;
   border: 1px solid #ddd;
-  padding: 0.5rem 1rem;
-  margin: 0 0.3rem;
-  cursor: pointer;
   border-radius: 4px;
-  transition: background 0.2s ease;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .filters button:hover {
-  background: #4eb6ac;
+  background: var(--brand);
   color: #fff;
 }
 
 
 /* =====================================
-   ABOUT, CONTACT, BUY PAGES
+   ABOUT / CONTACT / BUY PAGES
 ===================================== */
 .page-about,
 .page-contact,
 .page-buy {
-  max-width: 800px;
+  max-width: var(--content-width-narrow);
   margin: 4rem auto;
   padding: 0 2rem;
   text-align: center;
@@ -310,22 +372,22 @@ hr {
 .page-about h1,
 .page-contact h1,
 .page-buy h2 {
+  margin-bottom: 2rem;
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #4db6ac;
-  margin-bottom: 2rem;
+  color: var(--brand);
 }
 
 .page-about p,
 .page-contact p,
 .page-buy p {
+  max-width: 750px;
+  margin: 0 auto 1.2rem;
+  text-align: center;
   font-family: 'Karma', serif;
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
-  margin: 0 auto 1.2rem;
-  max-width: 750px;
-  text-align: center;
 }
 
 
@@ -333,17 +395,17 @@ hr {
    CONTACT FORM
 ===================================== */
 form.contact-form {
-  max-width: 600px;
-  margin: 2rem auto;
-  font-family: 'Karma', Georgia, serif;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: 'Karma', Georgia, serif;
 }
 
 form.contact-form label {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 form.contact-form input[type='text'],
@@ -351,11 +413,10 @@ form.contact-form input[type='email'],
 form.contact-form textarea {
   width: 100%;
   padding: 0.5rem;
+  font-family: 'Karma', Georgia, serif;
+  font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 1rem;
-  font-family: 'Karma', Georgia, serif;
-  box-sizing: border-box;
 }
 
 form.contact-form textarea {
@@ -364,20 +425,20 @@ form.contact-form textarea {
 }
 
 form.contact-form button {
-  background: #4db6ac;
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.75rem 2rem;
+  background: var(--brand);
   color: white;
   border: none;
-  padding: 0.75rem 2rem;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.3s ease;
-  display: block;
-  margin: 1rem auto 0;
 }
 
 form.contact-form button:hover {
-  background: #39998c;
+  background: var(--brand-dark);
 }
 
 
@@ -386,116 +447,110 @@ form.contact-form button:hover {
 ===================================== */
 .page-buy img {
   display: block;
-  margin: 2rem auto;
   max-width: 300px;
+  margin: 2rem auto;
   border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 .page-buy blockquote {
-  font-family: 'Karma', serif;
-  font-size: 1.1rem;
-  font-style: italic;
-  color: #444;
-  background: #f9f9f9;
-  border-left: 4px solid #4db6ac;
+  max-width: 600px;
   margin: 1.5rem auto;
   padding: 1rem 1.5rem;
-  max-width: 600px;
+  font-family: 'Karma', serif;
+  font-size: 1.1rem;
   line-height: 1.6;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-style: italic;
+  color: #444;
+  background: var(--bg-soft);
+  border-left: 4px solid var(--brand);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .buy-button {
   display: inline-block;
+  margin-top: 2rem;
   padding: 1rem 2rem;
-  background: #4db6ac;
+  background: var(--brand);
   color: white;
+  text-decoration: none;
   font-family: 'Karma', serif;
   font-size: 1.2rem;
-  text-decoration: none;
   border-radius: 8px;
-  margin-top: 2rem;
   transition: background-color 0.3s ease;
 }
 
 .buy-button:hover {
-  background: #39998c;
+  background: var(--brand-dark);
 }
 
 
 /* =====================================
-   HOME PAGE
+   HOME PAGE / HERO
 ===================================== */
-
-/* =====================================
-   HERO BANNER
-===================================== */
+.page-home {
+  margin-top: 0;
+  padding-top: 0;
+}
 
 .hero {
   position: relative;
-  width: 100vw;                    /* full viewport width on desktop */
-  margin: 0 calc(50% - 50vw);      /* break out of centered <main> on desktop */
-  height: 60vh;                    /* tall hero for desktop */
-  overflow: hidden;
+  width: 100vw;
+  height: 60vh;
+  margin: 0 calc(50% - 50vw);
   padding: 0;
+  overflow: hidden;
+}
+
+.page-home .hero {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;                  /* no inline gaps */
   filter: brightness(70%);
 }
 
-/* Overlay text */
 .hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 90%;
   text-align: center;
   color: white;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
-  max-width: 90%;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
 }
 
 .hero-text h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;                  /* desktop heading */
   margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
 }
 
 .hero-text p {
-  font-family: 'Karma', serif;
-  font-size: 1.3rem;                 /* desktop subtext */
   margin-bottom: 1.5rem;
+  font-family: 'Karma', serif;
+  font-size: 1.3rem;
 }
 
 .hero-btn {
-  text-decoration: none;
-  background: #4db6ac;
-  color: white;
+  display: inline-block;
   padding: 0.8rem 1.8rem;
-  border-radius: 6px;
+  background: var(--brand);
+  color: white;
+  text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  border-radius: 6px;
   transition: background-color 0.3s ease;
-  display: inline-block;
 }
 
 .hero-btn:hover {
-  background: #39998c;
-}
-
-
-/* Featured Recipes Section */
-.featured-recipes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
+  background: var(--brand-dark);
 }
 
 .featured-card {
@@ -505,21 +560,20 @@ form.contact-form button:hover {
 .featured-card img {
   width: 100%;
   height: 200px;
+  margin-bottom: 1rem;
   object-fit: cover;
   border-radius: 12px;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .featured-card h3 {
+  margin-top: 0.8rem;
   font-family: 'Karma', serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #4db6ac;
-  margin-top: 0.8rem;
+  color: var(--brand);
 }
 
-/* Remove underline for featured recipe titles */
 .featured-card a,
 .featured-card a:visited,
 .featured-card a:hover,
@@ -529,10 +583,9 @@ form.contact-form button:hover {
 }
 
 .featured-card a:hover h3 {
-  color: #39998c;
+  color: var(--brand-dark);
 }
 
-/* Category Grid */
 .category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -544,105 +597,127 @@ form.contact-form button:hover {
 .category-card {
   display: block;
   padding: 2rem 1rem;
-  background: #f9f9f9;
+  background: var(--bg-soft);
   border: 1px solid #ddd;
+  border-radius: 8px;
   text-decoration: none;
-  color: #4db6ac;
+  color: var(--brand);
   font-family: 'Karma', serif;
   font-size: 1.1rem;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .category-card:hover {
-  background: #4db6ac;
+  background: var(--brand);
   color: white;
 }
 
-/* CTA Banner */
 .cta-banner {
+  margin-top: 3rem;
+  padding: 3rem 1rem;
   text-align: center;
   background: #f3f7f6;
-  padding: 3rem 1rem;
-  margin-top: 3rem;
   border-radius: 8px;
 }
 
 .cta-banner h2 {
-  font-family: 'Playfair Display', serif;
-  color: #4db6ac;
-  font-size: 2rem;
   margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--brand);
 }
 
 .cta-banner p {
+  margin-bottom: 1.5rem;
   font-family: 'Karma', serif;
   font-size: 1.1rem;
-  margin-bottom: 1.5rem;
 }
 
 .cta-btn {
   display: inline-block;
   padding: 0.8rem 2rem;
-  background: #4db6ac;
+  background: var(--brand);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
   font-family: 'Karma', serif;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
 .cta-btn:hover {
-  background: #39998c;
+  background: var(--brand-dark);
 }
+
 
 /* =====================================
-   FIX: Remove extra spacing above hero
+   SEARCH PAGE
 ===================================== */
-
-/* Remove default margin/padding between nav and hero on home page */
-.page-home {
-  margin-top: 0;        /* ensure the main wrapper starts at top */
-  padding-top: 0;       /* no extra padding at top */
+.search-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
 }
 
-.page-home .hero {
-  margin-top: 0;        /* hero flush with navbar */
-  padding-top: 0;
+.search-page-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
-header {
-  margin-bottom: 0;     /* remove any bottom gap from header */
+.search-box-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
+.search-input-large {
+  width: min(720px, 92%);
+  padding: 1rem 1.25rem;
+  font-size: 1.1rem;
+  border: 1px solid #d8d8d8;
+  border-radius: var(--radius-lg);
+  background: #fff;
+  outline: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.search-input-large:focus {
+  border-color: #4ecdc4;
+  box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.12);
+}
+
+.search-no-results {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--muted);
+}
 
 
 /* =====================================
    MOBILE RESPONSIVENESS
-   ===================================== */
+===================================== */
+@media (max-width: 900px) {
+  .search-results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 768px) {
-
-  /* ----- GLOBAL TEXT ----- */
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-size: 16px;            /* base font for readability */
-  }
-
   main {
-    padding: 1rem;              /* reduce side padding */
+    padding: 1rem;
   }
 
-  h1, h2 {
-    font-size: 2rem;            /* scale down big headings */
+  main > h1,
+  main h2,
+  .page-about h1,
+  .page-contact h1,
+  .page-buy h2,
+  .recipe-wrapper h1 {
+    font-size: 2rem;
   }
 
-  /* ----- HEADER / NAV ----- */
   header {
-    flex-direction: column;     /* stack logo and nav vertically */
+    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
   }
@@ -653,46 +728,36 @@ header {
     gap: 1rem;
   }
 
-  /* ----- HERO BANNER ----- */
   .hero {
-    width: 100%;                     /* ✅ keep fully inside mobile viewport */
-    margin: 0;                        /* ✅ remove calc() trick on mobile */
-    height: 40vh;                      /* ✅ shorter hero for small screens */
+    width: 100%;
+    height: 40vh;
+    margin: 0;
     overflow: hidden;
   }
 
-  .hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
   .hero-text h1 {
-    font-size: 1.8rem;                 /* ✅ smaller headline on mobile */
+    font-size: 1.8rem;
   }
 
   .hero-text p {
-    font-size: 0.95rem;                /* ✅ smaller subtext on mobile */
-  }
-
-  .hero-btn {
-    padding: 0.5rem 1.2rem;            /* ✅ slightly smaller button */
     font-size: 0.95rem;
   }
 
-  /* ----- FEATURED RECIPES GRID ----- */
+  .hero-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
   .featured-recipes {
-    grid-template-columns: 1fr; /* single column */
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
   .featured-card img {
-    height: auto;               /* allow image to resize naturally */
+    height: auto;
     max-height: 200px;
   }
 
-  /* ----- CATEGORY GRID ----- */
   .category-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
@@ -703,7 +768,6 @@ header {
     font-size: 1rem;
   }
 
-  /* ----- CTA BANNER ----- */
   .cta-banner {
     padding: 2rem 1rem;
   }
@@ -712,23 +776,7 @@ header {
     font-size: 1.8rem;
   }
 
-  .cta-banner p {
-    font-size: 1rem;
-  }
-
-  /* ----- ABOUT / CONTACT / BUY PAGES ----- */
-  .page-about,
-  .page-contact,
-  .page-buy {
-    padding: 0 1rem;
-  }
-
-  .page-about h1,
-  .page-contact h1,
-  .page-buy h2 {
-    font-size: 2rem;
-  }
-
+  .cta-banner p,
   .page-about p,
   .page-contact p,
   .page-buy p {
@@ -736,13 +784,41 @@ header {
     line-height: 1.6;
   }
 
+  .page-about,
+  .page-contact,
+  .page-buy {
+    padding: 0 1rem;
+  }
+
   form.contact-form {
     width: 100%;
   }
 
   form.contact-form button {
-    width: 100%;                 /* full-width button for easy tap */
+    width: 100%;
     font-size: 1rem;
+  }
+
+  .recipe-content ul,
+  .recipe-content ol {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .recipe-image img {
+    max-width: 100%;
   }
 }
 
+@media (max-width: 640px) {
+  .search-results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-input-large {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.95rem 1.1rem;
+  }
+}
