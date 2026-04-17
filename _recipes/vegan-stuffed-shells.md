@@ -1,7 +1,7 @@
 ---
 title: Vegan Stuffed Shells
 date: 2019-01-13
-image: /assets/images/vegan-stuffed-shells.png
+image: /assets/images/vegan-stuffed-shells.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

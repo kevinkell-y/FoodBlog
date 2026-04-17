@@ -1,7 +1,7 @@
 ---
 title: Vegan Queso
 date: 2025-06-26
-image: /assets/images/vegan-queso.png
+image: /assets/images/vegan-queso.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Pumpkin Cheesecake
 date: 2019-01-06
-image: /assets/images/vegan-pumpkin-cheesecake.png
+image: /assets/images/vegan-pumpkin-cheesecake.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

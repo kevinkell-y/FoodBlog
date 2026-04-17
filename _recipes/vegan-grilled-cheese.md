@@ -1,7 +1,7 @@
 ---
 title: Vegan Creamy Cilantro Grilled Cheese
 date: 2025-06-26
-image: /assets/images/vegan-creamy-cilantro-grilled-cheese.png
+image: /assets/images/vegan-creamy-cilantro-grilled-cheese.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

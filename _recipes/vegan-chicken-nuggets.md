@@ -1,7 +1,7 @@
 ---
 title: Vegan Chicken Nuggets
 date: 2019-03-09
-image: /assets/images/vegan-chicken-nuggets.png
+image: /assets/images/vegan-chicken-nuggets.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -1,7 +1,7 @@
 ---
 title: Vegan Cheesy Bread
 date: 2019-01-04
-image: /assets/images/vegan-cheesy-bread.png
+image: /assets/images/vegan-cheesy-bread.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

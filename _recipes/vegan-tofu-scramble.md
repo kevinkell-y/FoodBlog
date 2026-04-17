@@ -1,7 +1,7 @@
 ---
 title: Vegan Tofu Scramble
 date: 2024-07-17
-image: /assets/images/vegan-tofu-scramble.png
+image: /assets/images/vegan-tofu-scramble.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

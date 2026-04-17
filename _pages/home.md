@@ -7,7 +7,7 @@ permalink: /
 <!-- Hero Section -->
 <div class="hero">
 
-  <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Easy Vegan Recipes">
+  <img src="{{ '/assets/images/hero-banner.webp' | relative_url }}" alt="Easy Vegan Recipes">
 
   <div class="hero-text">
     <h1>Delicious Vegan Recipes</h1>

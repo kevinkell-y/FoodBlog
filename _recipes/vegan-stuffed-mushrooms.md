@@ -1,7 +1,7 @@
 ---
 title: Vegan Stuffed Mushrooms
 date: 2019-01-01
-image: /assets/images/vegan-stuffed-mushrooms.png
+image: /assets/images/vegan-stuffed-mushrooms.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

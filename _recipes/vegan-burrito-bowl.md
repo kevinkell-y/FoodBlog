@@ -1,7 +1,7 @@
 ---
 title: Vegan Burrito Bowls
 date: 2025-05-04
-image: /assets/images/vegan-burrito-bowls.png
+image: /assets/images/vegan-burrito-bowls.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

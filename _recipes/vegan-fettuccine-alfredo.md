@@ -1,7 +1,7 @@
 ---
 title: Vegan Fettuccine Alfredo with Italian Sausage
 date: 2018-11-04
-image: /assets/images/vegan-fettuccine-alfredo-italian-sausage.png
+image: /assets/images/vegan-fettuccine-alfredo-italian-sausage.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

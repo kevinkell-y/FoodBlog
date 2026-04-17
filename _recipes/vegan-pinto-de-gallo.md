@@ -1,7 +1,7 @@
 ---
 title: Vegan Pinto de Gallo
 date: 2025-06-26
-image: /assets/images/pinto-de-gallo.png
+image: /assets/images/pinto-de-gallo.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

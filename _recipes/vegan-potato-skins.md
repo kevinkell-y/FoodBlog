@@ -1,7 +1,7 @@
 ---
 title: Vegan Black Bean Guacamole Potato Skins
 date: 2025-06-26
-image: /assets/images/vegan-black-bean-guacamole-potato-skins.png
+image: /assets/images/vegan-black-bean-guacamole-potato-skins.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

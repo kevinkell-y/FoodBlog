@@ -1,7 +1,7 @@
 ---
 title: Vegan Baked Ziti
 date: 2019-05-24
-image: /assets/images/vegan-baked-ziti.png
+image: /assets/images/vegan-baked-ziti.webp
 layout: recipe
 categories:
   - Entrees

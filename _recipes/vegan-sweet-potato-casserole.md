@@ -1,7 +1,7 @@
 ---
 title: Vegan Sweet Potato Casserole
 date: 2018-11-19
-image: /assets/images/vegan-sweet-potato-casserole.png
+image: /assets/images/vegan-sweet-potato-casserole.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

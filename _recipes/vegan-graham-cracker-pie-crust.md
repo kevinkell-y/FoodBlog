@@ -1,7 +1,7 @@
 ---
 title: Vegan Graham Cracker Pie Crust
 date: 2018-11-04
-image: /assets/images/vegan-graham-cracker-pie-crust.png
+image: /assets/images/vegan-graham-cracker-pie-crust.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

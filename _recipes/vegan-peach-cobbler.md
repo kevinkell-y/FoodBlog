@@ -1,7 +1,7 @@
 ---
 title: Vegan Peach Cobbler
 date: 2020-01-15
-image: /assets/images/vegan-peach-cobbler.png
+image: /assets/images/vegan-peach-cobbler.webp
 layout: recipe
 categories:
 - Dessert

@@ -1,7 +1,7 @@
 ---
 title: Vegan Falafel Sliders
 date: 2025-06-26
-image: /assets/images/falafel-sliders.png
+image: /assets/images/falafel-sliders.webp
 layout: recipe
 tags:
 - vegan

@@ -1,7 +1,7 @@
 ---
 title: Vegan Pork and Beans
 date: 2018-11-04
-image: /assets/images/vegan-pork-and-beans.png
+image: /assets/images/vegan-pork-and-beans.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

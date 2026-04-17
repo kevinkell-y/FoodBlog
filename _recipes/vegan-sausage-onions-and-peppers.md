@@ -1,7 +1,7 @@
 ---
 title: Vegan Sausage Sandwich
 date: 2025-06-26
-image: /assets/images/sausage-onions-peppers-sandwich.png
+image: /assets/images/sausage-onions-peppers-sandwich.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

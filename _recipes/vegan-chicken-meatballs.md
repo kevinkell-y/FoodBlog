@@ -1,7 +1,7 @@
 ---
 title: Vegan Chicken Meatballs
 date: 2022-10-04
-image: /assets/images/vegan-chicken-meatballs.png
+image: /assets/images/vegan-chicken-meatballs.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

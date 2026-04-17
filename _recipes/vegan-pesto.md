@@ -1,7 +1,7 @@
 ---
 title: Vegan Pesto
 date: 2018-11-04
-image: /assets/images/vegan-pesto.png
+image: /assets/images/vegan-pesto.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

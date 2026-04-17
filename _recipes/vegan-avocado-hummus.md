@@ -1,7 +1,7 @@
 ---
 title: Avocado Hummus
 date: 2019-05-24
-image: /assets/images/avocado-hummus.png
+image: /assets/images/avocado-hummus.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

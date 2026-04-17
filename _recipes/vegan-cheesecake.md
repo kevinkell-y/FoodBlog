@@ -1,7 +1,7 @@
 ---
 title: Vegan Cheesecake
 date: 2018-11-04
-image: /assets/images/vegan-cheesecake.png
+image: /assets/images/vegan-cheesecake.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

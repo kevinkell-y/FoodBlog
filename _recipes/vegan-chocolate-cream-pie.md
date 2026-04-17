@@ -1,7 +1,7 @@
 ---
 title: Vegan Chocolate Cream Pie
 date: 2025-06-04
-image: /assets/images/vegan-chocolate-cream-pie.png
+image: /assets/images/vegan-chocolate-cream-pie.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

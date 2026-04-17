@@ -5,6 +5,7 @@ description: >-
 url: "https://veganandcheese.com"   
 baseurl: ""
 instagram_username: veganandcheese
+image: /assets/images/og-image.webp
 
 permalink: /:title/
 theme: minima

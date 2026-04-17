@@ -1,7 +1,7 @@
 ---
 title: Vegan Cauliflower Soup
 date: 2020-01-12
-image: /assets/images/vegan-cauliflower-soup.png
+image: /assets/images/vegan-cauliflower-soup.webp
 layout: recipe
 categories:
 - Soups & Stews

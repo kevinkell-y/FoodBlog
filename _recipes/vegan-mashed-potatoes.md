@@ -1,7 +1,7 @@
 ---
 title: Vegan Mashed Potatoes
 date: 2019-01-02
-image: /assets/images/vegan-mashed-potatoes.png
+image: /assets/images/vegan-mashed-potatoes.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

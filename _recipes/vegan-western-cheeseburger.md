@@ -1,7 +1,7 @@
 ---
 title: Vegan Western Bacon Cheeseburger
 date: 2025-06-26
-image: /assets/images/vegan-western-bacon-cheeseburger.png
+image: /assets/images/vegan-western-bacon-cheeseburger.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

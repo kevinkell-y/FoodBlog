@@ -1,7 +1,7 @@
 ---
 title: Vegan Chili Cheese Fries
 date: 2018-11-04
-image: /assets/images/vegan-chili-cheese-fries.png
+image: /assets/images/vegan-chili-cheese-fries.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

@@ -7,7 +7,7 @@ layout: default
 
   {% if page.image %}
     <div class="recipe-image">
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy" decoding="async">
     </div>
   {% endif %}
 

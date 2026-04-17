@@ -1,7 +1,7 @@
 ---
 title: Vegan Egg Substitute (Flax Egg)
 date: 2025-06-26
-image: /assets/images/vegan-flax-egg.png
+image: /assets/images/vegan-flax-egg.webp
 layout: recipe
 categories:
 - Dairy-Free Basics

@@ -1,7 +1,7 @@
 ---
 title: Vegan Baked Potatoes
 date: 2019-03-09
-image: /assets/images/vegan-baked-potato.png
+image: /assets/images/vegan-baked-potato.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

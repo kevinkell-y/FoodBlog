@@ -1,7 +1,7 @@
 ---
 title: Vegan Brussel Sprouts
 date: 2018-12-20
-image: /assets/images/vegan-brussel-sprouts.png
+image: /assets/images/vegan-brussel-sprouts.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes

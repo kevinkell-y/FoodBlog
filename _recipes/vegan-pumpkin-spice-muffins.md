@@ -1,7 +1,7 @@
 ---
 title: Vegan Pumpkin Spice Muffins
 date: 2021-07-28
-image: /assets/images/vegan-pumpkin-spice-muffins.png
+image: /assets/images/vegan-pumpkin-spice-muffins.webp
 layout: recipe
 categories:
 - Easy Vegan Recipes
