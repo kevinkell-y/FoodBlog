@@ -12,9 +12,9 @@
       --text: #241f1a;
       --muted: #766b60;
       --line: #e4d8cc;
-      --accent: #2f6f43;
-      --accent-dark: #245734;
-      --danger: #a63d2f;
+      --accent: #31bdb7;
+      --accent-dark: #249d98;
+      --danger: #8d4a44;
       --shadow: 0 10px 30px rgba(0,0,0,0.08);
       --radius: 18px;
     }
@@ -44,6 +44,7 @@
       margin: 0;
       font-size: 42px;
       letter-spacing: -0.04em;
+      color: var(--accent);
     }
 
     .hero p {
@@ -102,25 +103,30 @@
       font-weight: 800;
       font-size: 15px;
       cursor: pointer;
-      background: var(--text);
+      background: var(--accent);
       color: white;
       margin: 6px 8px 6px 0;
+      transition: 0.15s;
     }
 
     button:hover {
-      opacity: 0.92;
+      background: var(--accent-dark);
     }
 
     .secondary {
-      background: #786b60;
-    }
-
-    .publish {
       background: var(--accent);
     }
 
-    .publish:hover {
+    .secondary:hover {
       background: var(--accent-dark);
+    }
+
+    .publish {
+      background: #f4b55a;   /* warm gold */
+    }
+
+    .publish:hover {
+      background: #e7a03c;
     }
 
     .danger {
@@ -128,8 +134,12 @@
     }
 
     .small {
-      padding: 8px 12px;
-      font-size: 13px;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .row {
@@ -234,6 +244,7 @@
     }
 
     .preview-box {
+      display: none;
       white-space: pre-wrap;
       background: #111;
       color: #f4f4f4;
@@ -243,7 +254,6 @@
       max-height: 520px;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 14px;
-      display: none;
     }
 
     .status {
@@ -301,6 +311,7 @@
 
       .hero h1 {
         font-size: 34px;
+        color: var(--accent);
       }
 
       .row {
@@ -433,7 +444,7 @@ function addIngredient(value = "") {
   const remove = document.createElement("button");
   remove.className = "danger small";
   remove.type = "button";
-  remove.textContent = "Remove";
+  remove.textContent = "×";
   remove.onclick = () => wrap.remove();
 
   wrap.appendChild(input);
@@ -465,7 +476,7 @@ function addDirection(value = "") {
   const remove = document.createElement("button");
   remove.className = "danger small";
   remove.type = "button";
-  remove.textContent = "Remove";
+  remove.textContent = "×";
   remove.onclick = () => {
     wrap.remove();
     renumberDirections();

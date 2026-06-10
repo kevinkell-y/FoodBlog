@@ -27,8 +27,7 @@ collections:
     permalink: /:name/
   recipes:
     output: true
-    permalink: /recipes/:name/
-
+    
 
 defaults:
   - scope:
