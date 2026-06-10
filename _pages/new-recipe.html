@@ -1,0 +1,46 @@
+---
+layout: default
+title: New Recipe
+permalink: /new-recipe/
+---
+
+<section style="max-width:900px;margin:40px auto;padding:20px;">
+  <h1>Recipe Admin</h1>
+
+  <div id="login-box">
+    <input id="admin-user" placeholder="Username">
+    <input id="admin-pass" type="password" placeholder="Password">
+    <button onclick="checkLogin()">Enter</button>
+    <p id="login-error"></p>
+  </div>
+
+  <div id="cms-box" style="display:none;">
+    <iframe 
+      src="/admin/new-recipe.html" 
+      style="width:100%;height:1200px;border:0;">
+    </iframe>
+  </div>
+</section>
+
+<script>
+function checkLogin(){
+  const user = document.getElementById("admin-user").value;
+  const pass = document.getElementById("admin-pass").value;
+
+  if(user === "admin" && pass === "CHANGE_THIS_PASSWORD"){
+    sessionStorage.setItem("recipe-admin-ok", "yes");
+    showCMS();
+  } else {
+    document.getElementById("login-error").textContent = "Wrong username or password.";
+  }
+}
+
+function showCMS(){
+  document.getElementById("login-box").style.display = "none";
+  document.getElementById("cms-box").style.display = "block";
+}
+
+if(sessionStorage.getItem("recipe-admin-ok") === "yes"){
+  showCMS();
+}
+</script>
