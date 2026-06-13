@@ -1,20 +1,13 @@
 ---
-title: Vegan Shepherd's Pie
+title: "Vegan Shepherd's Pie"
 date: 2019-12-28
 image: /assets/images/vegan-shepherds-pie.webp
 layout: recipe
 categories:
+  - Vegan Entrees
+  - Vegan Holidays
   - Vegan Casseroles
-  - Vegan Dessert
-  - Vegan Entrees
-  - Vegan Entrees
-  - Vegan Classics
 tags:
-- vegan
-- shepherds-pie
-- comfort-food
-- mashed-potatoes
-- easy-vegan-recipes
 ---
 
 ## 🧾 Ingredients
@@ -54,5 +47,3 @@ tags:
 ### 💡 Notes
 
  This is a hearty and comforting dish ideal for meal prep or cold-weather dinners. The filling is flexible—lentils, mushrooms, or vegan crumbles all work beautifully
-
-
