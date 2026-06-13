@@ -1,21 +1,11 @@
 ---
-title: Vegan Stuffing
+title: "Vegan Stuffing"
 date: 2018-11-05
 image: /assets/images/vegan-stuffing.webp
 layout: recipe
 categories:
-  - Vegan Casseroles
   - Vegan Holidays
-  - Vegan Entrees
-  - Easy Vegan Recipes
-  - Holiday Recipes
-  - Vegan Sides
 tags:
-- stuffing
-- thanksgiving
-- plant-based
-- comfort-food
-- savory
 ---
 
 ## 🧾 Ingredients
@@ -42,5 +32,3 @@ tags:
 ### 💡 Notes
 
 For the best texture, use day-old or slightly dried bread cubes so they soak up flavor without turning mushy. You can prep the vegetables and toast the bread ahead of time to streamline holiday cooking. Add vegan sausage or mushrooms for a heartier version.
-
-
