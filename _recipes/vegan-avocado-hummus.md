@@ -4,10 +4,11 @@ date: 2019-05-24
 image: /assets/images/avocado-hummus.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Dips
-- Vegan Appetizers
-- Hummus Variations
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Dips
+  - Vegan Appetizers
+  - Hummus Variations
 tags:
 - avocado
 - chickpeas

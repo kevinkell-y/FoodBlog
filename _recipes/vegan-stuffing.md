@@ -4,9 +4,12 @@ date: 2018-11-05
 image: /assets/images/vegan-stuffing.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Holiday Recipes
-- Vegan Sides
+  - Vegan Casseroles
+  - Vegan Holidays
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Holiday Recipes
+  - Vegan Sides
 tags:
 - stuffing
 - thanksgiving

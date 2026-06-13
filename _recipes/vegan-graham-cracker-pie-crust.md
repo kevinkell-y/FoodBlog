@@ -4,8 +4,8 @@ date: 2018-11-04
 image: /assets/images/vegan-graham-cracker-pie-crust.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Dessert
+  - Vegan Dessert
+  - Easy Vegan Recipes
 tags:
 - pie-crust
 - graham-cracker

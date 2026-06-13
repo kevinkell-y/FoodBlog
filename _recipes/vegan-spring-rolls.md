@@ -4,8 +4,10 @@ date: 2025-06-26
 image: /assets/images/vegan-spring-rolls.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Appetizers
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Appetizers
 tags:
 - spring-rolls
 - vegan

@@ -4,10 +4,11 @@ date: 2019-06-03
 image: /assets/images/vegan-chickpea-artichoke-salad.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Salads
-- Vegan Entrees
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Salads
+  - Vegan Entrees
 tags:
 - artichokes
 - chickpeas

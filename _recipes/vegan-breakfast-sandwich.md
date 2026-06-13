@@ -4,8 +4,8 @@ date: 2018-11-04
 image: /assets/images/vegan-sausage-egg-breakfast-sandwich.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Breakfast
+  - Vegan Breakfast
+  - Easy Vegan Recipes
 tags:
 - breakfast-sandwich
 - vegan-egg

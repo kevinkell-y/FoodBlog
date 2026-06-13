@@ -4,8 +4,10 @@ date: 2018-11-04
 image: /assets/images/vegan-mexican-casserole.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Mains
+  - Vegan Casseroles
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Mains
 tags:
 - mexican-casserole
 - layered-bake

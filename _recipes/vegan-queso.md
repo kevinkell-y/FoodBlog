@@ -4,8 +4,10 @@ date: 2025-06-26
 image: /assets/images/vegan-queso.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Dips & Sauces
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Dips & Sauces
 tags:
 - queso
 - vegan-cheese

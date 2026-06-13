@@ -4,8 +4,11 @@ date: 2018-11-04
 image: /assets/images/vegan-green-bean-casserole.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Casserole
+  - Vegan Casseroles
+  - Vegan Holidays
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Casserole
 tags:
 - green-beans
 - casserole

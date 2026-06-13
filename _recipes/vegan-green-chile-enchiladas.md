@@ -4,8 +4,10 @@ date: 2025-06-26
 image: /assets/images/vegan-green-chile-enchiladas.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Main Dishes
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Main Dishes
 tags:
 - enchiladas
 - green-chile

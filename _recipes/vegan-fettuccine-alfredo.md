@@ -4,8 +4,10 @@ date: 2018-11-04
 image: /assets/images/vegan-fettuccine-alfredo-italian-sausage.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Mains
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Mains
 tags:
 - fettuccine
 - alfredo

@@ -4,10 +4,11 @@ date: 2019-01-13
 image: /assets/images/vegan-stuffed-shells.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Entrees
-- Vegan Italian Dishes
-- Vegan Comfort Food
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Italian Dishes
+  - Vegan Comfort Food
 tags:
 - vegan-sausage
 - pasta

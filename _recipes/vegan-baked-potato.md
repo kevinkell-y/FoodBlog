@@ -4,10 +4,11 @@ date: 2019-03-09
 image: /assets/images/vegan-baked-potato.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Sides
-- Holiday Recipes
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Sides
+  - Holiday Recipes
 tags:
 - baked-potatoes
 - comfort-food

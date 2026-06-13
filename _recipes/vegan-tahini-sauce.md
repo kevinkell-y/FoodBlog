@@ -4,9 +4,10 @@ date: 2019-05-24
 image: /assets/images/vegan-tahini-sauce.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sauces
-- Oil-Free
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Sauces
+  - Oil-Free
 tags:
 - tahini
 - lemon

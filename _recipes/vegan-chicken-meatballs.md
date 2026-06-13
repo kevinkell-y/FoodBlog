@@ -4,12 +4,13 @@ date: 2022-10-04
 image: /assets/images/vegan-chicken-meatballs.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Holiday Recipes
-- Vegan Appetizers
-- Vegan Entrees
-- Vegan Melts & Sandwiches
-- Vegan Sides
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Holiday Recipes
+  - Vegan Appetizers
+  - Vegan Entrees
+  - Vegan Melts & Sandwiches
+  - Vegan Sides
 tags:
 - vegan chicken
 - meatballs

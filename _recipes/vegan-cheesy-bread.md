@@ -4,10 +4,11 @@ date: 2019-01-04
 image: /assets/images/vegan-cheesy-bread.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Sides
-- Vegan Breads
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Sides
+  - Vegan Breads
 tags:
 - cheesy-bread
 - pull-apart

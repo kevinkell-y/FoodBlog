@@ -4,10 +4,11 @@ date: 2019-07-06
 image: /assets/images/vegan-cream-of-chicken-soup.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Soups
-- Comfort Food
-- Dairy-Free
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Soups
+  - Comfort Food
+  - Dairy-Free
 tags:
 - cream-of-chicken
 - soup

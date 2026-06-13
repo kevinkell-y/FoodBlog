@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/pinto-de-gallo.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Appetizers & Dips
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Appetizers & Dips
 tags:
 - pinto-beans
 - salsa

@@ -4,9 +4,11 @@ date: 2025-06-26
 image: /assets/images/vegan-sausage-melt.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sandwiches
-- Vegan Melts
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Sandwiches
+  - Vegan Melts
 tags:
 - sausage-melt
 - vegan-grilled-cheese

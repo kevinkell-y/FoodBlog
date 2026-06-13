@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/vegan-creamy-cilantro-grilled-cheese.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sandwiches
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Sandwiches
 tags:
 - grilled-cheese
 - vegan-cheese

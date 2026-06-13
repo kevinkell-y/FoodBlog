@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/vegan-western-bacon-cheeseburger.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Burgers
+  - Vegan Burgers
+  - Vegan Entrees
+  - Easy Vegan Recipes
 tags:
 - vegan-burger
 - western-burger

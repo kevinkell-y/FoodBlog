@@ -4,8 +4,9 @@ date: 2025-06-27
 image: /assets/images/vegan-banana-bread.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Baked Goods
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Baked Goods
 tags:
 - banana-bread
 - vegan-baking

@@ -4,8 +4,9 @@ date: 2020-02-13
 image: /assets/images/vegan-split-pea-soup.webp
 layout: recipe
 categories:
-- Soups
-- Easy Vegan Recipes
+  - Vegan Dinners
+  - Soups
+  - Easy Vegan Recipes
 tags:
 - split-pea
 - one-pot

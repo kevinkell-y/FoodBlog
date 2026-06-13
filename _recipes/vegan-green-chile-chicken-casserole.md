@@ -4,9 +4,10 @@ date: 2019-07-06
 image: /assets/images/vegan-green-chile-chicken-casserole.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Casserole
-- Vegan Entrees
+  - Vegan Casseroles
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Casserole
 tags:
 - green-chile
 - casserole

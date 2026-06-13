@@ -4,10 +4,11 @@ date: 2018-12-20
 image: /assets/images/vegan-brussel-sprouts.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sides
-- Holiday Recipes
-- Vegetable Dishes
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Sides
+  - Holiday Recipes
+  - Vegetable Dishes
 tags:
 - brussels-sprouts
 - roasted-veggies

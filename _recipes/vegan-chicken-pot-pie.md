@@ -4,8 +4,11 @@ date: 2020-02-09
 image: /assets/images/vegan-chicken-pot-pie.webp
 layout: recipe
 categories:
-- Dinner
-- Vegan Comfort Food
+  - Vegan Dinners
+  - Vegan Dessert
+  - Vegan Entrees
+  - Dinner
+  - Vegan Comfort Food
 tags:
 - vegan
 - pot-pie

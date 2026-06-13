@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/vegan-oreo-cheesecake.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Desserts
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Desserts
 tags:
 - vegan-cheesecake
 - no-bake

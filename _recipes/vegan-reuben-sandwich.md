@@ -4,8 +4,10 @@ date: 2025-06-26
 image: /assets/images/vegan-reuben-sandwich.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sandwiches
+  - Vegan Burgers
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Sandwiches
 tags:
 - reuben
 - sandwich

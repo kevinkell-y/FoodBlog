@@ -4,8 +4,10 @@ date: 2018-11-04
 image: /assets/images/vegan-chili-cheese-fries.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Snacks & Sides
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Snacks & Sides
 tags:
 - chili
 - cheese-fries

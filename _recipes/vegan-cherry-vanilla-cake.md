@@ -4,10 +4,11 @@ date: 2020-07-07
 image: /assets/images/vegan-vanilla-cherry-cake.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
-- Vegan Cakes
-- Holiday Recipes
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
+  - Vegan Cakes
+  - Holiday Recipes
 tags:
 - vegan cake
 - cherry dessert

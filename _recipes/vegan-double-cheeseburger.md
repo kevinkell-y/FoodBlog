@@ -4,8 +4,10 @@ date: 2018-11-04
 image: /assets/images/vegan-double-double-animal-style-cheeseburger.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Mains
+  - Vegan Burgers
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Mains
 tags:
 - vegan-burger
 - animal-style

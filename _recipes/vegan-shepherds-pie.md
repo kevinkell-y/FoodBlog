@@ -4,8 +4,11 @@ date: 2019-12-28
 image: /assets/images/vegan-shepherds-pie.webp
 layout: recipe
 categories:
-- Dinner
-- Vegan Classics
+  - Vegan Casseroles
+  - Vegan Dessert
+  - Vegan Entrees
+  - Dinner
+  - Vegan Classics
 tags:
 - vegan
 - shepherds-pie

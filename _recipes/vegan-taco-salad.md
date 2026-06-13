@@ -4,9 +4,11 @@ date: 2018-11-04
 image: /assets/images/vegan-taco-salad.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Salads
-- Vegan Sides
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Salads
+  - Vegan Sides
 tags:
 - taco-salad
 - frito-chips

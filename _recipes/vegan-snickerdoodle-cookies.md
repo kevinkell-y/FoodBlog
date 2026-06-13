@@ -4,10 +4,11 @@ date: 2020-10-03
 image: /assets/images/vegan-snickerdoodles.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
-- Vegan Cookies
-- Holiday Recipes
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
+  - Vegan Cookies
+  - Holiday Recipes
 tags:
 - vegan snickerdoodles
 - easy vegan dessert

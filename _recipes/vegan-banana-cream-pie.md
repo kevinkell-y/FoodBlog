@@ -4,9 +4,10 @@ date: 2019-03-10
 image: /assets/images/vegan-banana-cream-pie.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
-- No-Bake Recipes
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
+  - No-Bake Recipes
 tags:
 - banana
 - coconut-cream

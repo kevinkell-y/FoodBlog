@@ -4,8 +4,10 @@ date: 2025-06-26
 image: /assets/images/sausage-onions-peppers-sandwich.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sandwiches
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Sandwiches
 tags:
 - sausage
 - slow-cooker

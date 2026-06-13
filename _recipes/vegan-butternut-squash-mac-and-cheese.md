@@ -4,8 +4,10 @@ date: 2018-11-04
 image: /assets/images/vegan-butternut-squash-mac-and-cheese.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Pasta
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Pasta
 tags:
 - mac-and-cheese
 - butternut-squash

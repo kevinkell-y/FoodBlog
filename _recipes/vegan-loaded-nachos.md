@@ -4,10 +4,12 @@ date: 2018-12-05
 image: /assets/images/vegan-loaded-nachos.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Game Day
-- Vegan Party Food
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Game Day
+  - Vegan Party Food
 tags:
 - vegan-nachos
 - vegan-snacks

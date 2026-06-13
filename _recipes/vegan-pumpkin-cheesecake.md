@@ -4,9 +4,11 @@ date: 2019-01-06
 image: /assets/images/vegan-pumpkin-cheesecake.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
-- Holiday Recipes
+  - Vegan Holidays
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
+  - Holiday Recipes
 tags:
 - pumpkin
 - cheesecake

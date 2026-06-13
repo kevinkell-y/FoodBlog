@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/vegan-creamy-cilantro-lime-sauce.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Dips & Sauces
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Dips & Sauces
 tags:
 - cilantro-lime
 - creamy-sauce

@@ -4,10 +4,12 @@ date: 2019-01-01
 image: /assets/images/vegan-stuffed-mushrooms.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Sides
-- Holiday Recipes
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Sides
+  - Holiday Recipes
 tags:
 - stuffed-mushrooms
 - vegan-appetizer

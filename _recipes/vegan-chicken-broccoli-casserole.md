@@ -4,8 +4,10 @@ date: 2020-03-30
 image: /assets/images/vegan-chicken-broccoli-casserole.webp
 layout: recipe
 categories:
-- Vegan Recipes
-- Dinner
+  - Vegan Casseroles
+  - Vegan Entrees
+  - Vegan Recipes
+  - Dinner
 tags:
 - vegan
 - casserole

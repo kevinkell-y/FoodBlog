@@ -4,9 +4,10 @@ date: 2019-07-18
 image: /assets/images/vegan-pineapple-upside-down-cake.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
-- Baked Goods
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
+  - Baked Goods
 tags:
 - cake
 - pineapple

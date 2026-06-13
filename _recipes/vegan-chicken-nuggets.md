@@ -4,10 +4,11 @@ date: 2019-03-09
 image: /assets/images/vegan-chicken-nuggets.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Appetizers
-- Vegan Entrees
-- Kid-Friendly
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Appetizers
+  - Vegan Entrees
+  - Kid-Friendly
 tags:
 - vegan-chicken
 - nuggets

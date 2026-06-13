@@ -4,8 +4,9 @@ date: 2025-06-26
 image: /assets/images/classic-vegan-cheeseburger.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Burgers
+  - Vegan Burgers
+  - Vegan Entrees
+  - Easy Vegan Recipes
 tags:
 - vegan-cheeseburger
 - beyond-meat

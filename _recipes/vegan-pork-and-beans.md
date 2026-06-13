@@ -4,8 +4,9 @@ date: 2018-11-04
 image: /assets/images/vegan-pork-and-beans.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan BBQ
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan BBQ
 tags:
 - beans
 - bbq-side

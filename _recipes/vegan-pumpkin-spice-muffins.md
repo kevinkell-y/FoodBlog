@@ -4,11 +4,14 @@ date: 2021-07-28
 image: /assets/images/vegan-pumpkin-spice-muffins.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Holiday Recipes
-- Vegan Breakfasts
-- Vegan Desserts
-- Vegan Snacks
+  - Vegan Breakfast
+  - Vegan Holidays
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Holiday Recipes
+  - Vegan Breakfasts
+  - Vegan Desserts
+  - Vegan Snacks
 tags:
 - pumpkin spice
 - fall recipes

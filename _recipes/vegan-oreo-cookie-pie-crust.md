@@ -4,9 +4,10 @@ date: 2025-06-26
 image: /assets/images/vegan-oreo-cookie-pie-crust.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Desserts
-- Baking Basics
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Desserts
+  - Baking Basics
 tags:
 - oreo-crust
 - vegan-crust

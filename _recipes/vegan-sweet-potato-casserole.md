@@ -4,9 +4,12 @@ date: 2018-11-19
 image: /assets/images/vegan-sweet-potato-casserole.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Holiday Recipes
-- Vegan Sides
+  - Vegan Casseroles
+  - Vegan Holidays
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Holiday Recipes
+  - Vegan Sides
 tags:
 - sweet-potato
 - vegan-thanksgiving

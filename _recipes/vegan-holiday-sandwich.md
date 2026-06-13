@@ -4,10 +4,11 @@ date: 2018-11-10
 image: /assets/images/vegan-holiday-sandwich.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sandwiches
-- Holiday Recipes
-- Vegan Leftovers
+  - Vegan Holidays
+  - Easy Vegan Recipes
+  - Vegan Sandwiches
+  - Holiday Recipes
+  - Vegan Leftovers
 tags:
 - vegan-sandwich
 - holiday-leftovers

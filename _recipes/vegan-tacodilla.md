@@ -4,8 +4,10 @@ date: 2019-07-30
 image: /assets/images/vegan-tacodilla.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Lunch
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Lunch
 tags:
 - tacodilla
 - vegan-quesadilla

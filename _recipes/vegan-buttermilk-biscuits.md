@@ -4,8 +4,9 @@ date: 2019-11-10
 image: /assets/images/vegan-buttermilk-biscuits.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Baked Goods
+  - Vegan Breakfast
+  - Easy Vegan Recipes
+  - Baked Goods
 tags:
 - biscuits
 - vegan-baking

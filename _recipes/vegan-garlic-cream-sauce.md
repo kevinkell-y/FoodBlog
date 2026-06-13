@@ -4,9 +4,10 @@ date: 2021-10-02
 image: /assets/images/vegan-garlic-cream-sauce.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Sauces
-- Vegan Sides
+  - Vegan Dinners
+  - Easy Vegan Recipes
+  - Vegan Sauces
+  - Vegan Sides
 tags:
 - dairy-free
 - creamy vegan sauce

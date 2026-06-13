@@ -9,6 +9,9 @@ tags:
 - chickpeas
 - middle eastern
 - sandwich
+categories:
+  - Vegan Dinners
+  - Vegan Entrees
 ---
 
 ## 🧆 Falafel Sliders

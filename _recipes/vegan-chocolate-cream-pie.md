@@ -4,8 +4,9 @@ date: 2025-06-04
 image: /assets/images/vegan-chocolate-cream-pie.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Desserts
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Vegan Desserts
 tags:
 - chocolate-cream-pie
 - vegan-dessert

@@ -4,8 +4,9 @@ date: 2018-11-04
 image: /assets/images/vegan-chocolate-chip-cookies.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Desserts
+  - Vegan Dessert
+  - Easy Vegan Recipes
+  - Desserts
 tags:
 - cookies
 - chocolate-chip

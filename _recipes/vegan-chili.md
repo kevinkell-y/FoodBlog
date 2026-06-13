@@ -4,10 +4,11 @@ date: 2019-02-14
 image: /assets/images/vegan-chili.webp
 layout: recipe
 categories:
-- Easy Vegan Recipes
-- Vegan Entrees
-- Vegan Soups & Stews
-- Vegan Comfort Food
+  - Vegan Dinners
+  - Vegan Entrees
+  - Easy Vegan Recipes
+  - Vegan Soups & Stews
+  - Vegan Comfort Food
 tags:
 - vegan-chili
 - beans
