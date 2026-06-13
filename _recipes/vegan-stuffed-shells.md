@@ -17,7 +17,7 @@ tags:
 - 3 cloves of garlic, minced
 - 1 vegan egg (using egg replacer or my [flax-eggs recipe](/vegan-flax-eggs))
 - 1/2 a bag of frozen spinach, thawed
-- 15 oz of vegan ricotta (I recommend Kite Hill Brand or subbing 8 oz for [Honest Stand](http://www.thehoneststand.com) Garlic Parm Dip (can be found at most Whole Foods)
+- 15 oz of vegan ricotta (I recommend Kite Hill)
 - 3/4 cup shredded mozzarella cheese (Violife and Follow Your Heart are my favorite brands)
 - 1/2 tsp kosher salt
 - 1/2 tsp ground pepper
