@@ -7,11 +7,11 @@ permalink: /recipes/
 <h1>Recipes</h1>
 
 <div class="filters">
-  <button data-filter="all">All</button>
-  <button data-filter="breakfast">Breakfast</button>
-  <button data-filter="entrees">Entrees</button>
-  <button data-filter="dessert">Desserts</button>
-  <button data-filter="burgers">Burgers</button>
+  <a class="filter-btn" href="{{ '/recipes/' | relative_url }}">All</a>
+  <a class="filter-btn" href="{{ '/categories/vegan-breakfast/' | relative_url }}">Breakfast</a>
+  <a class="filter-btn" href="{{ '/categories/vegan-entrees/' | relative_url }}">Entrees</a>
+  <a class="filter-btn" href="{{ '/categories/vegan-dessert/' | relative_url }}">Desserts</a>
+  <a class="filter-btn" href="{{ '/categories/vegan-burgers/' | relative_url }}">Burgers</a>
 </div>
 
 <div class="recipe-grid">

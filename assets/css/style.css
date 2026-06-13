@@ -336,24 +336,42 @@ hr {
 /* =====================================
    FILTER BUTTONS
 ===================================== */
+
 .filters {
-  text-align: center;
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem 0;
 }
 
-.filters button {
-  margin: 0 0.3rem;
-  padding: 0.5rem 1rem;
+.filters a {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
   background: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  border-radius: 8px;
+  color: var(--brand);
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
 }
 
-.filters button:hover {
+.filters a:visited {
+  color: var(--brand);
+}
+
+.filters a:hover {
   background: var(--brand);
   color: #fff;
+  border-color: var(--brand);
+}
+
+.filters a.active {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
 }
 
 
