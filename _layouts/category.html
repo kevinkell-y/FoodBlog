@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="category-page">
+  <h1>{{ page.title }}</h1>
+
+  {% assign filtered_recipes = site.recipes | where_exp: "recipe", "recipe.categories contains page.category" %}
+
+  {% if filtered_recipes.size > 0 %}
+    <div class="recipe-grid">
+      {% for recipe in filtered_recipes %}
+        <a class="recipe-card" href="{{ recipe.url | relative_url }}">
+          {% if recipe.image %}
+            <img src="{{ recipe.image | relative_url }}" alt="{{ recipe.title }}">
+          {% endif %}
+          <h3>{{ recipe.title }}</h3>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty-category">No recipes in this category yet.</p>
+  {% endif %}
+</section>

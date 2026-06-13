@@ -1,0 +1,23 @@
+- name: "Vegan Breakfast"
+  label: "Breakfast"
+  slug: "vegan-breakfast"
+
+- name: "Vegan Burgers"
+  label: "Burgers"
+  slug: "vegan-burgers"
+
+- name: "Vegan Entrees"
+  label: "Entrees"
+  slug: "vegan-entrees"
+
+- name: "Vegan Holidays"
+  label: "Holidays"
+  slug: "vegan-holidays"
+
+- name: "Vegan Casseroles"
+  label: "Casseroles"
+  slug: "vegan-casseroles"
+
+- name: "Vegan Dessert"
+  label: "Desserts"
+  slug: "vegan-dessert"

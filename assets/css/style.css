@@ -822,3 +822,75 @@ form.contact-form button:hover {
     padding: 0.95rem 1.1rem;
   }
 }
+
+
+/* =====================================
+   CATEGORY PAGES + RECIPE NAV DROPDOWN
+===================================== */
+
+.site-nav .nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.site-nav .nav-dropdown-trigger {
+  display: inline-block;
+}
+
+.site-nav .nav-dropdown-trigger::after {
+  content: " ▾";
+  font-size: 0.75em;
+}
+
+.site-nav .nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 190px;
+  background: #fff;
+  border: 1px solid #e4d8cc;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+  padding: .5rem;
+  z-index: 999;
+}
+
+.site-nav .nav-dropdown:hover .nav-dropdown-menu,
+.site-nav .nav-dropdown:focus-within .nav-dropdown-menu {
+  display: block;
+}
+
+.site-nav .nav-dropdown-menu a {
+  display: block;
+  padding: .55rem .75rem;
+  white-space: nowrap;
+  border-radius: 8px;
+  color: var(--brand);
+}
+
+.site-nav .nav-dropdown-menu a:hover {
+  background: #f7f2ea;
+}
+
+.category-page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.category-page h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--brand);
+  margin-bottom: 2rem;
+}
+
+.empty-category {
+  text-align: center;
+  font-family: 'Karma', Georgia, serif;
+  color: var(--muted);
+  font-size: 1.2rem;
+}

@@ -36,14 +36,14 @@ permalink: /
 
 ## Explore by Category
 
-<div class="category-grid">
-  <a href="/recipes/#Breakfast" class="category-card">Breakfast</a>
-  <a href="/recipes/#Entrees" class="category-card">Entrees</a>
-  <a href="/recipes/#Desserts" class="category-card">Desserts</a>
-  <a href="/recipes/#Burgers" class="category-card">Burgers</a>
-  <a href="/recipes/#Sauces" class="category-card">Sauces</a>
-</div>
 
+<div class="category-grid">
+  {% for category in site.data.categories %}
+    <a class="category-card" href="{{ '/categories/' | append: category.slug | append: '/' | relative_url }}">
+      {{ category.label }}
+    </a>
+  {% endfor %}
+</div>
 ---
 
 <div class="cta-banner">
