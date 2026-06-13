@@ -1,21 +1,12 @@
 ---
-title: Vegan Chicken Pot Pie
+title: "Vegan Chicken Pot Pie"
 date: 2020-02-09
 image: /assets/images/vegan-chicken-pot-pie.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Vegan Dessert
-  - Vegan Entrees
-  - Vegan Entrees
-  - Vegan Comfort Food
+  - Vegan Holidays
 tags:
-- vegan
-- pot-pie
-- mini-pies
-- comfort-food
-- savory
-- individual-servings
 ---
 
 ## 🧾 Ingredients
@@ -44,5 +35,3 @@ tags:
 Easy mini vegan chicken pot pies, 3 steps and delicious!
 
 If you want less "dough/biscuit" slice dough rounds in half before pressing in muffin tins.
-
-
