@@ -1,20 +1,12 @@
 ---
-title: Vegan Stuffed Shells
+title: "Vegan Stuffed Shells"
 date: 2019-01-13
 image: /assets/images/vegan-stuffed-shells.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Vegan Entrees
-  - Easy Vegan Recipes
-  - Vegan Italian Dishes
-  - Vegan Comfort Food
+  - Vegan Casseroles
 tags:
-- vegan-sausage
-- pasta
-- stuffed-shells
-- marinara
-- comfort-food
 ---
 
 ## 🧾 Ingredients
@@ -47,5 +39,3 @@ tags:
 ### 💡 Notes
 
 For best results, use a high-quality vegan sausage with a bit of spice to balance the rich marinara and creamy filling. Top with vegan mozzarella and fresh basil for a dinner-party-worthy presentation.
-
-
