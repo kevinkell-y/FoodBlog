@@ -1,20 +1,11 @@
 ---
-title: Vegan Grilled Stuffed Burritos
+title: "Vegan Grilled Stuffed Burritos"
 date: 2018-11-04
 image: /assets/images/vegan-grilled-stuffed-burritos.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Vegan Entrees
-  - Easy Vegan Recipes
-  - Vegan Entrees
 tags:
-- burritos
-- vegan-grill
-- tex-mex
-- dairy-free
-- comfort-food
-- wraps
 ---
 
 ## 🧾 Ingredients
@@ -24,8 +15,8 @@ tags:
 - 1 can refried beans (black or pinto)  
 - 1 cup pico de gallo  
 - 1 cup shredded lettuce  
-- 2 tbsp vegan sour cream (e.g. Follow Your Heart)  
-- 1/3 cup vegan nacho cheese (e.g. Wayfare) or shreds  
+- 2 tbsp vegan sour cream 
+- 1/3 cup vegan nacho cheese (e.g. Kite Hill) or shreds  
 - Optional: 1/2 cup brown or white rice (add salsa to make it "Mexican style")  
 - Large burrito-size tortillas  
 - Nonstick cooking spray  
@@ -57,5 +48,3 @@ tags:
 Inspired by Taco Bell’s Grilled Stuffed Burrito — but veganized!  
 For gluten-free, use GF tortillas.  
 Try with hot sauce, salsa verde, or jalapeños for a kick.
-
-
