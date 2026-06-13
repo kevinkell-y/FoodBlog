@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Edit Recipe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f7f2ea;
+      --card: #fff;
+      --text: #241f1a;
+      --muted: #766b60;
+      --line: #e4d8cc;
+      --accent: #31bdb7;
+      --accent-dark: #249d98;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 28px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: white;
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 40px;
+      background: var(--bg);
+      border-radius: 32px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: -0.04em;
+      color: var(--accent);
+      font-family: "Playfair Display", serif;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 17px;
+      margin-top: 8px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    h2 { margin: 0 0 14px; }
+
+    input, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 13px 14px;
+      font-size: 16px;
+      font-family: inherit;
+      background: #fffdfb;
+      color: var(--text);
+    }
+
+    textarea {
+      min-height: 360px;
+      resize: vertical;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+    }
+
+    input:focus, textarea:focus {
+      outline: 3px solid rgba(49,189,183,.18);
+      border-color: var(--accent);
+    }
+
+    button {
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 18px;
+      font-weight: 800;
+      font-size: 15px;
+      cursor: pointer;
+      background: var(--accent);
+      color: white;
+      margin: 6px 8px 6px 0;
+    }
+
+    button:hover { background: var(--accent-dark); }
+
+    .recipe-list {
+      margin-top: 16px;
+      display: grid;
+      gap: 10px;
+      max-height: 440px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .recipe-item {
+      border: 1px solid var(--line);
+      background: #fffdfb;
+      border-radius: 14px;
+      padding: 14px 16px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .recipe-item:hover {
+      border-color: var(--accent);
+      color: var(--accent-dark);
+    }
+
+    .recipe-item.active {
+      background: #e7fbf9;
+      border-color: var(--accent);
+    }
+
+    .category-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .category-options label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #efe7dd;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 800;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .category-options input {
+      width: auto;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+
+    .status {
+      margin-top: 12px;
+      padding: 14px;
+      border-radius: 12px;
+      background: #efe7dd;
+      color: var(--text);
+      display: none;
+      white-space: pre-wrap;
+    }
+
+    .status.success {
+      background: #e1f2e5;
+      color: #194d29;
+    }
+
+    .status.error {
+      background: #f7dfdc;
+      color: #72291f;
+    }
+
+    .preview-box {
+      display: none;
+      white-space: pre-wrap;
+      background: #111;
+      color: #f4f4f4;
+      border-radius: 16px;
+      padding: 18px;
+      overflow: auto;
+      max-height: 520px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 99;
+      padding: 20px;
+    }
+
+    .modal {
+      background: white;
+      border-radius: 22px;
+      padding: 26px;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 650px) {
+      body { padding: 16px; }
+      .wrap { padding: 22px; border-radius: 24px; }
+      .hero h1 { font-size: 34px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <h1>Edit Recipe</h1>
+      <p>Search, edit, preview, and save recipe changes.</p>
+    </header>
+
+    <section class="card">
+      <h2>Find Recipe</h2>
+      <input id="recipeSearch" placeholder="Search recipes..." oninput="renderRecipeList()">
+      <div id="recipeList" class="recipe-list"></div>
+      <p class="muted">Recipes load automatically. Publish Key is only needed when saving.</p>
+    </section>
+
+    <section class="card">
+      <h2>Title</h2>
+      <input id="title" placeholder="Recipe title">
+    </section>
+
+    <section class="card">
+      <h2>Main Image Path</h2>
+      <input id="image" placeholder="/assets/images/example.webp">
+    </section>
+
+    <section class="card">
+      <h2>Categories</h2>
+      <div class="category-options">
+        <label><input type="checkbox" value="Vegan Breakfast"> Breakfast</label>
+        <label><input type="checkbox" value="Vegan Burgers"> Burgers</label>
+        <label><input type="checkbox" value="Vegan Entrees"> Entrees</label>
+        <label><input type="checkbox" value="Vegan Holidays"> Holidays</label>
+        <label><input type="checkbox" value="Vegan Casseroles"> Casseroles</label>
+        <label><input type="checkbox" value="Vegan Dessert"> Desserts</label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Recipe Markdown Body</h2>
+      <textarea id="body"></textarea>
+    </section>
+
+    <section class="card">
+      <h2>Save</h2>
+      <button type="button" onclick="previewRecipe()">Preview Changes</button>
+      <button type="button" onclick="openSaveModal()">Save Changes</button>
+      <div id="status" class="status"></div>
+      <pre id="preview" class="preview-box"></pre>
+    </section>
+  </div>
+
+  <div id="saveModal" class="modal-backdrop">
+    <div class="modal">
+      <h2>Enter Publish Key</h2>
+      <p class="muted">Your Food Blog Publish Key is used only for this save. It is not stored.</p>
+      <input id="publishKey" type="password" placeholder="Food Blog Publish Key">
+      <button type="button" onclick="saveRecipe()">Save Changes</button>
+      <button type="button" onclick="closeSaveModal()">Cancel</button>
+    </div>
+  </div>
+
+<script>
+const owner = "kevinkell-y";
+const repo = "FoodBlog";
+const branch = "main";
+
+let recipes = [];
+let currentPath = "";
+let currentSha = "";
+let currentFront = {};
+
+function showStatus(message, type = "") {
+  const status = document.getElementById("status");
+  status.textContent = message;
+  status.className = "status";
+  if (type) status.classList.add(type);
+  status.style.display = "block";
+}
+
+function encodePath(path) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
+function decodeBase64Unicode(base64) {
+  const binary = atob(base64.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+function encodeBase64Unicode(text) {
+  return btoa(unescape(encodeURIComponent(text)));
+}
+
+async function githubGet(path, token = "") {
+  const headers = { "Accept": "application/vnd.github+json" };
+  if (token) headers.Authorization = `Bearer ${token}`;
+
+  const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodePath(path)}?ref=${branch}`, {
+    headers
+  });
+
+  if (!res.ok) throw new Error(await res.text());
+  return res.json();
+}
+
+async function loadRecipes() {
+  showStatus("Loading recipes...", "");
+
+  try {
+    const data = await githubGet("_recipes");
+
+    recipes = data
+      .filter(item => item.name.endsWith(".md"))
+      .map(item => ({
+        name: item.name,
+        path: item.path,
+        title: titleFromFile(item.name)
+      }))
+      .sort((a, b) => a.title.localeCompare(b.title));
+
+    renderRecipeList();
+    showStatus(`Loaded ${recipes.length} recipes.`, "success");
+  } catch (err) {
+    showStatus("Could not load recipes:\n\n" + err.message, "error");
+  }
+}
+
+function titleFromFile(name) {
+  return name
+    .replace(".md", "")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function renderRecipeList() {
+  const search = document.getElementById("recipeSearch").value.toLowerCase();
+  const list = document.getElementById("recipeList");
+
+  const filtered = recipes.filter(recipe =>
+    recipe.name.toLowerCase().includes(search) ||
+    recipe.title.toLowerCase().includes(search)
+  );
+
+  list.innerHTML = "";
+
+  filtered.forEach(recipe => {
+    const item = document.createElement("div");
+    item.className = "recipe-item";
+    if (recipe.path === currentPath) item.classList.add("active");
+    item.textContent = recipe.title;
+    item.onclick = () => loadRecipe(recipe.path);
+    list.appendChild(item);
+  });
+}
+
+async function loadRecipe(path) {
+  showStatus("Loading recipe...", "");
+
+  try {
+    const data = await githubGet(path);
+    const markdown = decodeBase64Unicode(data.content);
+
+    currentPath = path;
+    currentSha = data.sha;
+
+    parseRecipe(markdown);
+    renderRecipeList();
+
+    showStatus(`Loaded ${path}.`, "success");
+  } catch (err) {
+    showStatus("Could not load recipe:\n\n" + err.message, "error");
+  }
+}
+
+function parseRecipe(markdown) {
+  if (!markdown.startsWith("---")) {
+    currentFront = {};
+    document.getElementById("body").value = markdown;
+    return;
+  }
+
+  const parts = markdown.split("---");
+  const frontRaw = parts[1].trim();
+  const bodyRaw = parts.slice(2).join("---").trimStart();
+
+  const front = {};
+  const lines = frontRaw.split("\n");
+  let activeKey = null;
+
+  lines.forEach(line => {
+    const keyMatch = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+
+    if (keyMatch) {
+      activeKey = keyMatch[1];
+      const value = keyMatch[2];
+
+      front[activeKey] = value === ""
+        ? []
+        : value.replace(/^"|"$/g, "");
+
+      return;
+    }
+
+    const itemMatch = line.match(/^\s+-\s+(.*)$/);
+
+    if (itemMatch && activeKey) {
+      if (!Array.isArray(front[activeKey])) front[activeKey] = [];
+      front[activeKey].push(itemMatch[1].trim());
+    }
+  });
+
+  currentFront = front;
+
+  document.getElementById("title").value = front.title || "";
+  document.getElementById("image").value = front.image || "";
+  document.getElementById("body").value = bodyRaw;
+
+  document.querySelectorAll(".category-options input").forEach(input => {
+    input.checked = Array.isArray(front.categories) && front.categories.includes(input.value);
+  });
+}
+
+function selectedCategories() {
+  return [...document.querySelectorAll(".category-options input:checked")]
+    .map(input => input.value);
+}
+
+function buildMarkdown() {
+  const title = document.getElementById("title").value.trim();
+  const image = document.getElementById("image").value.trim();
+  const body = document.getElementById("body").value.trim();
+  const categories = selectedCategories();
+
+  const front = {
+    ...currentFront,
+    title,
+    image,
+    layout: currentFront.layout || "recipe",
+    categories
+  };
+
+  const lines = ["---"];
+
+  Object.entries(front).forEach(([key, value]) => {
+    if (key === "categories") {
+      lines.push("categories:");
+      value.forEach(cat => lines.push(`  - ${cat}`));
+    } else if (Array.isArray(value)) {
+      lines.push(`${key}:`);
+      value.forEach(item => lines.push(`  - ${item}`));
+    } else if (value !== undefined && value !== null && value !== "") {
+      if (key === "title") {
+        lines.push(`title: "${String(value).replace(/"/g, '\\"')}"`);
+      } else {
+        lines.push(`${key}: ${value}`);
+      }
+    }
+  });
+
+  lines.push("---", "", body, "");
+  return lines.join("\n");
+}
+
+function validateRecipe() {
+  if (!currentPath || !currentSha) return "Choose a recipe first.";
+  if (!document.getElementById("title").value.trim()) return "Title is required.";
+  if (!document.getElementById("image").value.trim()) return "Image path is required.";
+  if (!selectedCategories().length) return "Select at least one category.";
+  if (!document.getElementById("body").value.trim()) return "Recipe body is required.";
+  return "";
+}
+
+function previewRecipe() {
+  const error = validateRecipe();
+
+  if (error) {
+    showStatus(error, "error");
+    return;
+  }
+
+  const preview = document.getElementById("preview");
+  preview.textContent = buildMarkdown();
+  preview.style.display = "block";
+  showStatus("Preview generated.", "success");
+}
+
+function openSaveModal() {
+  const error = validateRecipe();
+
+  if (error) {
+    showStatus(error, "error");
+    return;
+  }
+
+  document.getElementById("saveModal").style.display = "flex";
+  document.getElementById("publishKey").focus();
+}
+
+function closeSaveModal() {
+  document.getElementById("saveModal").style.display = "none";
+  document.getElementById("publishKey").value = "";
+}
+
+async function saveRecipe() {
+  const token = document.getElementById("publishKey").value.trim();
+
+  if (!token) {
+    showStatus("Enter your Food Blog Publish Key.", "error");
+    return;
+  }
+
+  const error = validateRecipe();
+
+  if (error) {
+    showStatus(error, "error");
+    return;
+  }
+
+  const markdown = buildMarkdown();
+
+  closeSaveModal();
+  showStatus("Saving recipe...", "");
+
+  try {
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodePath(currentPath)}`, {
+      method: "PUT",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+        "Accept": "application/vnd.github+json"
+      },
+      body: JSON.stringify({
+        message: `Update recipe: ${document.getElementById("title").value.trim()}`,
+        content: encodeBase64Unicode(markdown),
+        sha: currentSha,
+        branch
+      })
+    });
+
+    if (!res.ok) throw new Error(await res.text());
+
+    const data = await res.json();
+    currentSha = data.content.sha;
+
+    showStatus("Recipe saved successfully.\n\nGitHub Pages may take a minute to rebuild.", "success");
+  } catch (err) {
+    showStatus("Save failed:\n\n" + err.message, "error");
+  }
+}
+
+loadRecipes();
+</script>
+</body>
+</html>
