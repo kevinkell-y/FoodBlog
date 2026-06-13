@@ -6,7 +6,7 @@ layout: recipe
 categories:
   - Vegan Breakfast
   - Easy Vegan Recipes
-  - Vegan Breakfasts
+  - Vegan Breakfast
   - Vegan Entrees
   - Vegan Eggs
 tags:

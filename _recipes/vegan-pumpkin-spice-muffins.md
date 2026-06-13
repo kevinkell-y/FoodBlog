@@ -9,7 +9,7 @@ categories:
   - Vegan Dessert
   - Easy Vegan Recipes
   - Holiday Recipes
-  - Vegan Breakfasts
+  - Vegan Breakfast
   - Vegan Desserts
   - Vegan Snacks
 tags:
