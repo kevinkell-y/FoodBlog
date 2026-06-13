@@ -4,7 +4,7 @@ date: 2019-01-13
 image: /assets/images/vegan-stuffed-shells.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Italian Dishes

@@ -4,7 +4,7 @@ date: 2020-05-25
 image: /assets/images/vegan-gnocchi-spinach.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan One-Pot Meals

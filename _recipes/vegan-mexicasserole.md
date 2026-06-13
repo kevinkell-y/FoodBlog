@@ -7,7 +7,7 @@ categories:
   - Vegan Casseroles
   - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Mains
+  - Vegan Entrees
 tags:
 - mexican-casserole
 - layered-bake

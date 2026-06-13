@@ -4,7 +4,7 @@ date: 2018-11-04
 image: /assets/images/vegan-tzatziki-sauce.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Sauces & Dressings
 tags:

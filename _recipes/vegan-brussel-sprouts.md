@@ -4,7 +4,7 @@ date: 2018-12-20
 image: /assets/images/vegan-brussel-sprouts.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Sides
   - Holiday Recipes

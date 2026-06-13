@@ -4,7 +4,7 @@ date: 2019-05-24
 image: /assets/images/vegan-baked-ziti.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Casseroles
   - Vegan Entrees
 ---

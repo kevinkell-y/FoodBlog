@@ -4,7 +4,7 @@ date: 2024-06-26
 image: /assets/images/soba-noodle-teriyaki-spring-rolls.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Appetizers

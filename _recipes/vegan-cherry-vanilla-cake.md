@@ -6,7 +6,7 @@ layout: recipe
 categories:
   - Vegan Dessert
   - Easy Vegan Recipes
-  - Vegan Desserts
+  - Vegan Dessert
   - Vegan Cakes
   - Holiday Recipes
 tags:

@@ -4,9 +4,9 @@ date: 2018-11-04
 image: /assets/images/vegan-chicken-cheesesteaks.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Mains
+  - Vegan Entrees
 tags:
 - vegan-cheesesteak
 - vegan-chicken

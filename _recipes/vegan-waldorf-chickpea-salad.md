@@ -4,7 +4,7 @@ date: 2025-06-26
 image: /assets/images/vegan-waldorf-chickpea-salad.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Salads
 tags:

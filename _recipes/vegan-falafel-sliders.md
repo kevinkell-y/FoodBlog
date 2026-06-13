@@ -10,7 +10,7 @@ tags:
 - middle eastern
 - sandwich
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
 ---
 

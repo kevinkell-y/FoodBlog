@@ -4,7 +4,7 @@ date: 2019-05-24
 image: /assets/images/vegan-tahini-sauce.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Sauces
   - Oil-Free

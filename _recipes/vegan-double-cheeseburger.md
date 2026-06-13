@@ -7,7 +7,7 @@ categories:
   - Vegan Burgers
   - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Mains
+  - Vegan Entrees
 tags:
 - vegan-burger
 - animal-style

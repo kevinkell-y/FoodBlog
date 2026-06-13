@@ -4,7 +4,7 @@ date: 2025-06-26
 image: /assets/images/vegan-sausage-garlic-butter-lentil-pasta.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Pasta

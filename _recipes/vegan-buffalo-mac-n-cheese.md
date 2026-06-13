@@ -4,11 +4,11 @@ date: 2020-06-05
 image: /assets/images/vegan-buffalo-chicken-mac-n-cheese.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Holiday Recipes
-  - Vegan Casserole
+  - Vegan Casseroles
   - Vegan Sides
 tags:
 - buffalo

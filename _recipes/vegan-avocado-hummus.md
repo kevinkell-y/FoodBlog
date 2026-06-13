@@ -4,7 +4,7 @@ date: 2019-05-24
 image: /assets/images/avocado-hummus.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Dips
   - Vegan Appetizers

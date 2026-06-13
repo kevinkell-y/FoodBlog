@@ -4,7 +4,7 @@ date: 2025-06-26
 image: /assets/images/vegan-buffalo-chicken-sandwich.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Sandwiches
 tags:

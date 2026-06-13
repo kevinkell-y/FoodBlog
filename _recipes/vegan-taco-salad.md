@@ -4,7 +4,7 @@ date: 2018-11-04
 image: /assets/images/vegan-taco-salad.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Salads

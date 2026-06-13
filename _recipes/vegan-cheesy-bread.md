@@ -4,7 +4,7 @@ date: 2019-01-04
 image: /assets/images/vegan-cheesy-bread.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Appetizers
   - Vegan Sides

@@ -4,11 +4,11 @@ date: 2025-05-04
 image: /assets/images/vegan-burrito-bowls.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Bowls
-  - Vegan Mains
+  - Vegan Entrees
 tags:
 - burrito-bowl
 - vegan-cheese

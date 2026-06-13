@@ -7,7 +7,7 @@ categories:
   - Vegan Casseroles
   - Vegan Entrees
   - Vegan Recipes
-  - Dinner
+  - Vegan Entrees
 tags:
 - vegan
 - casserole

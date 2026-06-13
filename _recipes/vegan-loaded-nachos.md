@@ -4,7 +4,7 @@ date: 2018-12-05
 image: /assets/images/vegan-loaded-nachos.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Appetizers

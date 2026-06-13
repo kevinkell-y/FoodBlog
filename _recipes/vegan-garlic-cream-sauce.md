@@ -4,7 +4,7 @@ date: 2021-10-02
 image: /assets/images/vegan-garlic-cream-sauce.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Sauces
   - Vegan Sides

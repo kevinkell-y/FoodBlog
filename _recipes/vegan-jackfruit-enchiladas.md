@@ -4,7 +4,7 @@ date: 2019-04-01
 image: /assets/images/vegan-jackfruit-enchiladas.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Mexican Dishes

@@ -7,7 +7,7 @@ categories:
   - Vegan Holidays
   - Vegan Dessert
   - Easy Vegan Recipes
-  - Vegan Desserts
+  - Vegan Dessert
   - Holiday Recipes
 tags:
 - pumpkin

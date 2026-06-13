@@ -8,7 +8,7 @@ categories:
   - Vegan Holidays
   - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Casserole
+  - Vegan Casseroles
 tags:
 - green-beans
 - casserole

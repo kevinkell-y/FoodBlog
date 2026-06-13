@@ -7,7 +7,7 @@ categories:
   - Vegan Casseroles
   - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Casserole
+  - Vegan Casseroles
 tags:
 - green-chile
 - casserole

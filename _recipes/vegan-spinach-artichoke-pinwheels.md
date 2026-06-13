@@ -4,7 +4,7 @@ date: 2019-12-29
 image: /assets/images/vegan-pinwheels.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Category One
   - Category Two
 tags:

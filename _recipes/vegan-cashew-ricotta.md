@@ -4,7 +4,7 @@ date: 2025-06-26
 image: /assets/images/vegan-cashew-ricotta.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Dairy-Free Basics
 tags:

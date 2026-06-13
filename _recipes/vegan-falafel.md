@@ -4,10 +4,10 @@ date: 2020-04-07
 image: /assets/images/vegan-falafel.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
-  - Main Dishes
+  - Vegan Entrees
   - Middle Eastern
 tags:
 - vegan

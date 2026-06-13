@@ -4,9 +4,9 @@ date: 2018-11-04
 image: /assets/images/vegan-crunch-wrap-supremes.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
-  - Vegan Mains
+  - Vegan Entrees
 tags:
 - crunchwrap
 - vegan-fast-food

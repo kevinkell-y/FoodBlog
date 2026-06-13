@@ -4,7 +4,7 @@ date: 2020-05-26
 image: /assets/images/vegan-meatloaf.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Holiday Recipes

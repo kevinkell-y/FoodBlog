@@ -4,7 +4,7 @@ date: 2020-01-12
 image: /assets/images/vegan-cauliflower-soup.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Soups & Stews
   - Comfort Food
 tags:

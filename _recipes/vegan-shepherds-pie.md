@@ -7,7 +7,7 @@ categories:
   - Vegan Casseroles
   - Vegan Dessert
   - Vegan Entrees
-  - Dinner
+  - Vegan Entrees
   - Vegan Classics
 tags:
 - vegan

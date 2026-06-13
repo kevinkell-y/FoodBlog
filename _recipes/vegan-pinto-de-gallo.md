@@ -4,7 +4,7 @@ date: 2025-06-26
 image: /assets/images/pinto-de-gallo.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Easy Vegan Recipes
   - Appetizers & Dips
 tags:

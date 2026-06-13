@@ -4,7 +4,7 @@ date: 2019-02-14
 image: /assets/images/vegan-chili.webp
 layout: recipe
 categories:
-  - Vegan Dinners
+  - Vegan Entrees
   - Vegan Entrees
   - Easy Vegan Recipes
   - Vegan Soups & Stews

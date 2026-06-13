@@ -10,7 +10,7 @@ categories:
   - Easy Vegan Recipes
   - Holiday Recipes
   - Vegan Breakfast
-  - Vegan Desserts
+  - Vegan Dessert
   - Vegan Snacks
 tags:
 - pumpkin spice
