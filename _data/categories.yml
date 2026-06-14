@@ -21,3 +21,8 @@
 - name: "Vegan Dessert"
   label: "Desserts"
   slug: "vegan-dessert"
+
+- name: "Vegan Appetizers"
+  label: "Appetizers"
+  slug: "vegan-appetizers"
+

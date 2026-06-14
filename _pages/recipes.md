@@ -12,6 +12,7 @@ permalink: /recipes/
   <a class="filter-btn" href="{{ '/categories/vegan-entrees/' | relative_url }}">Entrees</a>
   <a class="filter-btn" href="{{ '/categories/vegan-dessert/' | relative_url }}">Desserts</a>
   <a class="filter-btn" href="{{ '/categories/vegan-burgers/' | relative_url }}">Burgers</a>
+  <a class="filter-btn" href="{{ '/categories/vegan-appetizers/' | relative_url }}">Appetizers</a>
 </div>
 
 <div class="recipe-grid">
