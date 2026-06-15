@@ -1,28 +1,17 @@
 ---
-title: Vegan Chicken Meatballs
+title: "Vegan Chicken Meatballs"
 date: 2022-10-04
 image: /assets/images/vegan-chicken-meatballs.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Easy Vegan Recipes
-  - Holiday Recipes
   - Vegan Appetizers
-  - Vegan Entrees
-  - Vegan Melts & Sandwiches
-  - Vegan Sides
 tags:
-- vegan chicken
-- meatballs
-- breadcrumbs
-- marinara
-- high-protein
-- italian
 ---
 
 ## 🧾 Ingredients
 
-- 1 lb of ground vegan chicken. My FAVORITE is [Simple Truth Emerge Plant-Based Chick'n Grind](https://www.kroger.com/p/simple-truth-emerge-plant-based-chick-n-grind/0001111097027)
+- 1 lb of ground vegan chicken
 - 1/2 bunch of fresh parsley, chopped (I throw mine in food processor)
 - 2.5 tsp dried basil
 - 3/4 cup cashew milk or almond milk
@@ -46,5 +35,3 @@ tags:
 ### 💡 Notes
 
 These meatballs are crisp on the outside, tender on the inside, and perfect with both red or white sauce in any pasta. For an extra kick, try adding crushed red pepper flakes to the mix.
-
-
