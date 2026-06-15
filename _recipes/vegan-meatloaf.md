@@ -1,21 +1,12 @@
 ---
-title: Vegan Meatloaf
+title: "Vegan Meatloaf"
 date: 2020-05-26
 image: /assets/images/vegan-meatloaf.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Vegan Entrees
-  - Easy Vegan Recipes
-  - Holiday Recipes
-  - Vegan Comfort Food
+  - Vegan Holidays
 tags:
-- vegan meatloaf
-- plant-based dinner
-- vegan main dish
-- holiday vegan recipes
-- lentil loaf
-- vegan comfort food
 ---
 
 ## 🧾 Ingredients
@@ -51,5 +42,3 @@ tags:
 ### 💡 Notes
 
 Delicious quick & easy vegan meatloaf! Great as a main course and for sandwiches.  allow it to rest after baking to firm up before slicing. Serve with mashed potatoes and gravy for the full comfort food experience.
-
-
