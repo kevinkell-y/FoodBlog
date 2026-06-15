@@ -1,21 +1,11 @@
 ---
-title: Vegan Buffalo Chicken Sandwich
+title: "Vegan Buffalo Chicken Sandwich"
 date: 2025-06-26
 image: /assets/images/vegan-buffalo-chicken-sandwich.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Easy Vegan Recipes
-  - Vegan Sandwiches
 tags:
-- buffalo
-- spicy
-- vegan-burger
-- sandwich
-- trader-joes
-- provolone
-- ranch
-- dairy-free
 ---
 
 ## 🌶️ Vegan Buffalo Chicken Sandwich
@@ -23,11 +13,11 @@ tags:
 
 ### Ingredients
 
-1. Trader Joe’s Hi Protein Veggie Burger  
+1. Any Vegan Chicken Patty 
 2. Buffalo Sauce (make sure it’s vegan when purchasing)  
 3. [Follow Your Heart](https://followyourheart.com) Provolone Slices  
 4. Vegan Ranch (e.g., Follow Your Heart or Daiya brand)  
-5. Vegan Mayo (optional – Vegenaise or Trader Joe’s brand)  
+5. Vegan Mayo (optional)
 6. Hamburger Buns, lightly toasted on the stove  
 7. 1 tbsp olive oil  
 
@@ -45,5 +35,3 @@ tags:
 > Easy Vegan Buffalo 'Chicken' Sandwich... soy-free and delicious!  
 >  
 > *This Trader Joe’s veggie burger is an amazing chicken substitute for burgers!*
-
-
