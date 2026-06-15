@@ -11,7 +11,7 @@ tags:
 
 ## 🧾 Ingredients
 
-- ~2 cups of Pollo Asada.Beyond Meat Chicken would also work, or any vegan chicken substitute.
+- ~2 cups of vegan chicken (e.g. Daring Chicken, Beyond Meat Chicken, or any vegan chicken substitute.
 - 1 can of vegan cream of chicken soup (I added a few spoonfuls of vegan sour cream to thicken it up)
 - 1/2 a 16oz package of frozen mixed vegetables (peas, green beans, carrots, corn), thawed
 - 2 packages/tubes of refrigerated biscuit dough
