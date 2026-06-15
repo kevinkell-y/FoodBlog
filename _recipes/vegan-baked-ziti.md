@@ -1,18 +1,17 @@
 ---
-title: Vegan Baked Ziti
+title: "Vegan Baked Ziti"
 date: 2019-05-24
 image: /assets/images/vegan-baked-ziti.webp
 layout: recipe
 categories:
   - Vegan Entrees
   - Vegan Casseroles
-  - Vegan Entrees
 ---
 
 ## 🧾 Ingredients
 
 - 1 pound of penne pasta
-- 2 packages of Beyond Meat Burgers
+- 1 lb vegan ground beef (e.g. Beyond Beef)
 - Red marinara sauce (about 1.5 jars or 1 jar + a can of crushed tomatoes)
 - 1 white onion, diced
 - 4–5 garlic cloves, minced
@@ -40,5 +39,3 @@ categories:
 Perfect for holidays, meal prep, or feeding a crowd.  
 Use homemade or store-bought vegan ricotta and mozzarella.  
 You can also sub in your favorite vegan ground beef alternative — Beyond Meat works great.
-
-
