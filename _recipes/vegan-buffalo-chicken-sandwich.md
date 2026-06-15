@@ -31,7 +31,3 @@ tags:
 4. Place the cooked veggie burger on the bottom bun, drizzle buffalo sauce (be generous!), and enjoy!
 
 ---
-
-> Easy Vegan Buffalo 'Chicken' Sandwich... soy-free and delicious!  
->  
-> *This Trader Joe’s veggie burger is an amazing chicken substitute for burgers!*
