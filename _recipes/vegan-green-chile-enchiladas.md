@@ -1,21 +1,12 @@
 ---
-title: Vegan Green Chile Enchiladas
+title: "Vegan Green Chile Enchiladas"
 date: 2025-06-26
 image: /assets/images/vegan-green-chile-enchiladas.webp
 layout: recipe
 categories:
   - Vegan Entrees
-  - Vegan Entrees
-  - Easy Vegan Recipes
-  - Vegan Entrees
+  - Vegan Casseroles
 tags:
-- enchiladas
-- green-chile
-- vegan-dinner
-- beyond-meat
-- dairy-free
-- mexican-inspired
-- baked
 ---
 
 ## 🌶️ Vegan Green Chile Enchiladas
@@ -26,7 +17,7 @@ tags:
 1. 1 (15 oz) can black or pinto beans  
 2. 1 (15 oz) can green enchilada sauce *(or red if preferred)*  
 3. 1 onion, diced  
-4. 1 package Beyond Meat Beefy Crumbles  
+4. 1 lb package Beyond Meat Beef
 5. 1 (4 oz) can diced green chiles  
 6. 1 package taco seasoning  
 7. 1 pack of soft taco-size flour tortillas (about 8–10)  
@@ -52,5 +43,3 @@ tags:
 ---
 
 > Easy vegan enchiladas everyone will love!
-
-
