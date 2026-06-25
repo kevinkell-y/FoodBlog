@@ -46,8 +46,8 @@ permalink: /
 </div>
 ---
 
-<div class="cta-banner">
+<!-- <div class="cta-banner">
   <h2>Cookbook Coming Soon!</h2>
   <p>Get the best of Vegan & Cheese in one beautifully designed book.</p>
   <a href="/buy/" class="cta-btn">Learn More</a>
-</div>
+</div> -->
